@@ -3,11 +3,11 @@
         <div class="form ingreso">
             <div class="logo"><img src="./assets/multimedia/images/client/logo-white.png" alt=""/></div>
             <div class="loginButtons">
-            <form id="viewerlogin">
-                <input type="text" placeholder="Email" ng-model="user.email"/>
-                <input type="password" placeholder="Clave" ng-model="user.password"/>
-                <input class="loginButton ingreso loginButton ingreso" type="submit" name="login" value="INGRESO" ng-click="Login(email,pass)"/>
-            </form>
+                <form  #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+                    <input name="username" type="text"     placeholder="Email"    [(ngModel)]="user.username"/>
+                    <input name="password" type="password" placeholder="Password" [(ngModel)]="user.password">
+                    <input class="loginButton ingreso" type="submit" name="login" value="INGRESO"/>
+                </form>
             </div>
         </div>
     </div>
