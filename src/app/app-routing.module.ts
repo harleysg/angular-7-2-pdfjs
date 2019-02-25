@@ -7,12 +7,12 @@ import { ViewerComponent } from './components/viewer/viewer.component';
 const routes: Routes = [
     {path: '', component: LoginComponent},
     {path: 'home', component: HomeComponent},
-    {path: 'viewer', component: ViewerComponent},
+    {path: 'viewer/:name', component: ViewerComponent},
     {path: '**', component: LoginComponent},
 ];
 
 @NgModule({
-    imports: [RouterModule.forRoot(routes)],
+    imports: [RouterModule.forRoot(routes, {useHash: false})],
     exports: [RouterModule]
 })
 export class AppRoutingModule { }
