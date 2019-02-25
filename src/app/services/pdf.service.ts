@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
     providedIn: 'root'
     })
 
-export class PdfServiceService {
+export class PdfService {
 
     private pdfList: PdfArr[] = [
         {

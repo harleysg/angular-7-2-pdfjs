@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { PdfServiceService } from './pdf-service.service';
+import { PdfService } from './pdf.service';
 
-describe('PdfServiceService', () => {
+describe('PdfService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: PdfServiceService = TestBed.get(PdfServiceService);
+    const service: PdfService = TestBed.get(PdfService);
     expect(service).toBeTruthy();
   });
 });

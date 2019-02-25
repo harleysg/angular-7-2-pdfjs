@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PdfServiceService } from "../../services/pdf-service.service";
+import { PdfService } from "../../services/pdf.service";
 import { ActivatedRoute, Params } from "@angular/router";
 
 @Component({
@@ -11,7 +11,7 @@ import { ActivatedRoute, Params } from "@angular/router";
 
     params:any;
 
-    constructor(private pdfService: PdfServiceService, private ruteInput: ActivatedRoute) {
+    constructor(private PdfService: PdfService, private ruteInput: ActivatedRoute) {
         this.params = this.ruteInput;
         console.log(this.params.params);
         console.log(this.params.params._value.name);

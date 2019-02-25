@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PdfServiceService, PdfArr } from "../../services/pdf-service.service";
+import { PdfService, PdfArr } from "../../services/pdf.service";
 
 @Component({
     selector: 'app-home',
@@ -9,13 +9,13 @@ import { PdfServiceService, PdfArr } from "../../services/pdf-service.service";
     export class HomeComponent implements OnInit {
 
     pdfs:PdfArr[] = []
-    constructor(private pdfService:PdfServiceService) { }
+    constructor(private PdfService:PdfService) { }
 
     ngOnInit() {
         let body = document.getElementsByTagName('body')[0] as HTMLBodyElement;
         body.classList.remove('on-login');
 
-        this.pdfs = this.pdfService.getPdf()
+        this.pdfs = this.PdfService.getPdf()
     }
 
 }

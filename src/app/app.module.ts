@@ -9,7 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ViewerComponent } from './components/viewer/viewer.component';
 import { HeaderComponent } from './components/header/header.component';
 
-import { PdfServiceService } from "./services/pdf-service.service";
+import { PdfService } from "./services/pdf.service";
 import { ExcerptPipe } from './excerpt.pipe';
 
 @NgModule({
@@ -27,7 +27,7 @@ imports: [
     FormsModule
 ],
 providers: [
-    PdfServiceService
+    PdfService
 ],
 bootstrap: [AppComponent]
 })
