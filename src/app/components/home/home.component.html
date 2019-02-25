@@ -1,6 +1,16 @@
-<h1>Angular Router</h1>
-<nav>
-  <a routerLink="/" routerLinkActive="active">login</a>
-  <a routerLink="/home" routerLinkActive="active">home</a>
-  <a routerLink="/viewer" routerLinkActive="active">Viewer</a>
-</nav>
+<main class="o-main">
+    <div class="o-wrap">
+        <section class="c-gallery">
+            <a class="c-link" routerLink="/viewer/{{pdf.hash}}" *ngFor="let pdf of pdfs">
+                <article class="c-gallery_item c-card">
+                    <figure class="c-card_image">
+                        <img class="o-logo" ui="gallery" src="./assets/multimedia/pdf/{{pdf.hash}}/{{pdf.hash}}.png" alt=""/>
+                    </figure>
+                    <div class="c-card_content">
+                        <div class="c-card_title"> {{pdf.name | excerpt}} </div>
+                    </div>
+                </article>
+            </a>
+        </section>
+    </div>
+</main>
