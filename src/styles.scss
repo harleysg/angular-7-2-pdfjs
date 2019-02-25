@@ -1,1 +1,315 @@
-/* You can add global styles to this file, and also import other style files */
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+:root{
+    --fz: 16px;
+}
+
+html {
+    font-size: var(--fz);
+}
+
+body {
+    font-size: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #292B33;
+    font-weight: 300;
+}
+
+
+.textLayer {
+    pointer-events: none;
+}
+.canvasWrapper{
+    user-select: none;
+}
+
+
+.o- {
+    &main{}
+    &header {
+        position: sticky;
+        left: 0;
+        top: 0;
+        height: 5rem;
+
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+        box-sizing: border-box;
+
+        background-color: #005682;
+        box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.1),
+                    3px 0px 5px 0px rgba(0, 0, 0, 0.1),
+                    0px 6px 10px 1px rgba(0, 0, 0, 0.16);
+    }
+    &logo[ui='header']{
+        display: block;
+        height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+    }
+    &wrap {
+        width: 100%;
+        max-width: 1024px;
+        margin: auto;
+        padding-bottom: 2rem;
+    }
+}
+
+
+/* .o-footer {} */
+
+
+.c-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+.c-link[ui='header'] {
+    color: #f4b500;
+}
+
+.c-gallery {
+    display: grid;
+    width: 100%;
+    grid-template: 370px / repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 370px;
+    grid-gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.c-gallery_item{
+    max-width: 240px;
+    min-width: 220px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.c-card{
+    display: grid;
+    grid-template: 1fr minmax(2.5rem, 3rem)/ 1fr;
+    padding: 0.5rem;
+    background-color: white;
+    box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.1),
+                3px 0px 5px 0px rgba(0, 0, 0, 0.1),
+                0px 6px 10px 1px rgba(0, 0, 0, 0.16);
+
+}
+.c-card_image{
+    margin: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+.c-card_image img{
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+.c-card_content{
+    display: grid;
+    grid-template: 1fr / 1fr;
+    padding-top: 0.4rem;
+    overflow: hidden;
+}
+.c-card_title{
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    height: 2.3rem;
+    position: relative;
+    text-transform: lowercase;
+}
+
+.c-card_title::first-letter{
+    text-transform: uppercase;
+}
+
+.c-card_title::after{
+    content: '... [ver más]';
+}
+
+/**/
+
+.on- {
+    &home {
+        background-color: #fff;
+    }
+    &login {
+        background: #292B33;
+        background-image: url(./assets/multimedia/images/LookandFeel/header-bg.png);
+        height: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow-x: hidden;
+        .cont-form {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            display: block;
+            height: 350px;
+            text-align: center;
+        }
+    }
+}
+
+
+.on-login .cont-form .form {
+    display: inline-block;
+    max-width: 340px;
+}
+
+.on-login .cont-form .form .logo {
+    height: 36px;
+    position: relative;
+}
+
+.on-login .cont-form .logo img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 80px;
+    margin: auto;
+    max-width: 100%;
+    width: 150px;
+}
+.on-login .cont-form .form .logo img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 80px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.on-login .cont-form .form .logo a.loginButton {
+    position: absolute;
+    right: -17px;
+    padding: 6px 15px;
+    width: 100px;
+}
+
+.on-login .cont-form .form .logo a.loginButton.ingreso::after {
+    right: -10px;
+    border-width: 19px 0 17px 10px;
+    border-color: transparent transparent transparent #e53141;
+}
+
+.on-login .cont-form .form .logo a.loginButton.ingreso::before {
+    left: -20px;
+    border-width: 0 0 36px 20px;
+    border-color: transparent transparent #e53141 transparent;
+}
+
+.on-login .cont-form .form.ingreso .loginButton.ingreso {
+    background-color: #FFFFFF;
+    color: #292B33;
+}
+
+.on-login .cont-form .form form {
+    margin-top: 30px;
+}
+
+.on-login .cont-form .form form input {
+    background-color: rgba(232, 232, 232, 0.2);
+    border-bottom-color: #292B33;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.on-login .cont-form .form form input:focus {
+    border-bottom: 3px solid #00C2BE;
+}
+
+.on-login .cont-form .form form input.sel {
+    border-bottom: 3px solid #23cff0;
+}
+
+.on-login .cont-form .form form input.bien {
+    border-bottom: 3px solid #19CDBD;
+}
+
+.on-login .cont-form .form form input.mal {
+    border-bottom: 3px solid #e53141;
+}
+
+.on-login .cont-form .form form a.loginButton {
+    margin-top: 10px;
+}
+
+.on-login .cont-form .form form a.loginButton.ingreso::after {
+    right: -10px;
+    border-width: 19px 0 17px 10px;
+    border-color: transparent transparent transparent #e53141;
+}
+
+.on-login .cont-form .form form a.loginButton.registro::before {
+    left: -10px;
+    border-width: 19px 10px 17px 0;
+    border-color: transparent #46559f transparent transparent;
+}
+
+.on-login .loginButtons {
+    text-align: center;
+}
+
+.on-login input[type='text'],
+.on-login input[type='password'] {
+    line-height: 1rem;
+    background-color: #FFFFFF;
+    min-height: 36px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 3px solid #e8e8e8;
+    padding-left: 10px;
+    outline: none;
+    color: #4c6a81;
+    -webkit-transition: 350ms;
+    -moz-transition: 350ms;
+    -o-transition: 350ms;
+    -ms-transition: 350ms;
+    transition: 350ms;
+}
+
+.on-login .loginButton {
+    display: inline-block;
+    text-align: center;
+    border: none;
+    color: #fff;
+    padding: 6px 55px;
+    margin: 0 15px;
+    height: 36px;
+    outline: none;
+    position: relative;
+}
+
+.on-login .loginButton.registro::after {
+    right: -10px;
+    border-width: 19px 0 17px 10px;
+    border-color: transparent transparent transparent #46559f;
+}
+
+.on-login .loginButton.registro::before {
+    left: -20px;
+    border-width: 0 0 36px 20px;
+    border-color: transparent transparent #46559f transparent;
+}
+
+@media print {
+html, body {
+    display: none;  /* hide whole page */
+}
+}
