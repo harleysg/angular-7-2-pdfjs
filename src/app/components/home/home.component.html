@@ -1,7 +1,7 @@
 <main class="o-main">
     <div class="o-wrap">
         <section class="c-gallery">
-            <a class="c-link" routerLink="/viewer/{{pdf.hash}}" *ngFor="let pdf of pdfs">
+            <a class="c-link" routerLink="/viewer" *ngFor="let pdf of pdfs" (click)="setStorage(pdf.hash)">
                 <article class="c-gallery_item c-card">
                     <figure class="c-card_image">
                         <img class="o-logo" ui="gallery" src="./assets/multimedia/pdf/{{pdf.hash}}/{{pdf.hash}}.png" alt=""/>
