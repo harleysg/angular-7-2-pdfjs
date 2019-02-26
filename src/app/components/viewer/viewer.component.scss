@@ -1,3 +1,4 @@
+
 //fonts
 $font_0: monospace;
 $font_1: courier;
@@ -6,81 +7,82 @@ $font_1: courier;
 $data_uri_0: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
 
 //urls
-$url_0: url('/assets/multimedia/images/viewer/shadow.png');
-$url_1: url('/assets/multimedia/images/viewer/loading-icon.gif');
-$url_2: url('/assets/multimedia/images/viewer/texture.png');
-$url_3: url('/assets/multimedia/images/viewer/loading-small.png');
-$url_4: url('/assets/multimedia/images/viewer/toolbarButton-menuArrows.png');
-$url_5: url('/assets/multimedia/images/viewer/toolbarButton-sidebarToggle.png');
-$url_6: url('/assets/multimedia/images/viewer/toolbarButton-sidebarToggle-rtl.png');
-$url_7: url('/assets/multimedia/images/viewer/toolbarButton-secondaryToolbarToggle.png');
-$url_8: url('/assets/multimedia/images/viewer/toolbarButton-secondaryToolbarToggle-rtl.png');
-$url_9: url('/assets/multimedia/images/viewer/findbarButton-previous.png');
-$url_10: url('/assets/multimedia/images/viewer/findbarButton-previous-rtl.png');
-$url_11: url('/assets/multimedia/images/viewer/findbarButton-next.png');
-$url_12: url('/assets/multimedia/images/viewer/findbarButton-next-rtl.png');
-$url_13: url('/assets/multimedia/images/viewer/toolbarButton-pageUp.png');
-$url_14: url('/assets/multimedia/images/viewer/toolbarButton-pageUp-rtl.png');
-$url_15: url('/assets/multimedia/images/viewer/toolbarButton-pageDown.png');
-$url_16: url('/assets/multimedia/images/viewer/toolbarButton-pageDown-rtl.png');
-$url_17: url('/assets/multimedia/images/viewer/toolbarButton-zoomOut.png');
-$url_18: url('/assets/multimedia/images/viewer/toolbarButton-zoomIn.png');
-$url_19: url('/assets/multimedia/images/viewer/toolbarButton-presentationMode.png');
-$url_20: url('/assets/multimedia/images/viewer/toolbarButton-print.png');
-$url_21: url('/assets/multimedia/images/viewer/toolbarButton-openFile.png');
-$url_22: url('/assets/multimedia/images/viewer/toolbarButton-download.png');
-$url_23: url('/assets/multimedia/images/viewer/toolbarButton-bookmark.png');
-$url_24: url('/assets/multimedia/images/viewer/toolbarButton-viewThumbnail.png');
-$url_25: url('/assets/multimedia/images/viewer/toolbarButton-viewOutline.png');
-$url_26: url('/assets/multimedia/images/viewer/toolbarButton-viewOutline-rtl.png');
-$url_27: url('/assets/multimedia/images/viewer/toolbarButton-viewAttachments.png');
-$url_28: url('/assets/multimedia/images/viewer/toolbarButton-search.png');
-$url_29: url('/assets/multimedia/images/viewer/secondaryToolbarButton-firstPage.png');
-$url_30: url('/assets/multimedia/images/viewer/secondaryToolbarButton-lastPage.png');
-$url_31: url('/assets/multimedia/images/viewer/secondaryToolbarButton-rotateCcw.png');
-$url_32: url('/assets/multimedia/images/viewer/secondaryToolbarButton-rotateCw.png');
-$url_33: url('/assets/multimedia/images/viewer/secondaryToolbarButton-handTool.png');
-$url_34: url('/assets/multimedia/images/viewer/secondaryToolbarButton-documentProperties.png');
-$url_35: url('/assets/multimedia/images/viewer/treeitem-expanded.png');
-$url_36: url('/assets/multimedia/images/viewer/treeitem-collapsed.png');
-$url_37: url('/assets/multimedia/images/viewer/treeitem-collapsed-rtl.png');
-$url_38: url('/assets/multimedia/images/viewer/grab.cur');
-$url_39: url('/assets/multimedia/images/viewer/grabbing.cur');
-$url_40: url('/assets/multimedia/images/viewer/loading-small@2x.png');
-$url_41: url('/assets/multimedia/images/viewer/toolbarButton-menuArrows@2x.png');
-$url_42: url('/assets/multimedia/images/viewer/toolbarButton-sidebarToggle@2x.png');
-$url_43: url('/assets/multimedia/images/viewer/toolbarButton-sidebarToggle-rtl@2x.png');
-$url_44: url('/assets/multimedia/images/viewer/toolbarButton-secondaryToolbarToggle@2x.png');
-$url_45: url('/assets/multimedia/images/viewer/toolbarButton-secondaryToolbarToggle-rtl@2x.png');
-$url_46: url('/assets/multimedia/images/viewer/findbarButton-previous@2x.png');
-$url_47: url('/assets/multimedia/images/viewer/findbarButton-previous-rtl@2x.png');
-$url_48: url('/assets/multimedia/images/viewer/findbarButton-next@2x.png');
-$url_49: url('/assets/multimedia/images/viewer/findbarButton-next-rtl@2x.png');
-$url_50: url('/assets/multimedia/images/viewer/toolbarButton-pageUp@2x.png');
-$url_51: url('/assets/multimedia/images/viewer/toolbarButton-pageUp-rtl@2x.png');
-$url_52: url('/assets/multimedia/images/viewer/toolbarButton-pageDown@2x.png');
-$url_53: url('/assets/multimedia/images/viewer/toolbarButton-pageDown-rtl@2x.png');
-$url_54: url('/assets/multimedia/images/viewer/toolbarButton-zoomIn@2x.png');
-$url_55: url('/assets/multimedia/images/viewer/toolbarButton-zoomOut@2x.png');
-$url_56: url('/assets/multimedia/images/viewer/toolbarButton-presentationMode@2x.png');
-$url_57: url('/assets/multimedia/images/viewer/toolbarButton-print@2x.png');
-$url_58: url('/assets/multimedia/images/viewer/toolbarButton-openFile@2x.png');
-$url_59: url('/assets/multimedia/images/viewer/toolbarButton-download@2x.png');
-$url_60: url('/assets/multimedia/images/viewer/toolbarButton-bookmark@2x.png');
-$url_61: url('/assets/multimedia/images/viewer/toolbarButton-viewThumbnail@2x.png');
-$url_62: url('/assets/multimedia/images/viewer/toolbarButton-viewOutline@2x.png');
-$url_63: url('/assets/multimedia/images/viewer/toolbarButton-viewOutline-rtl@2x.png');
-$url_64: url('/assets/multimedia/images/viewer/toolbarButton-viewAttachments@2x.png');
-$url_65: url('/assets/multimedia/images/viewer/toolbarButton-search@2x.png');
-$url_66: url('/assets/multimedia/images/viewer/secondaryToolbarButton-firstPage@2x.png');
-$url_67: url('/assets/multimedia/images/viewer/secondaryToolbarButton-lastPage@2x.png');
-$url_68: url('/assets/multimedia/images/viewer/secondaryToolbarButton-rotateCcw@2x.png');
-$url_69: url('/assets/multimedia/images/viewer/secondaryToolbarButton-rotateCw@2x.png');
-$url_70: url('/assets/multimedia/images/viewer/secondaryToolbarButton-handTool@2x.png');
-$url_71: url('/assets/multimedia/images/viewer/secondaryToolbarButton-documentProperties@2x.png');
-$url_72: url('/assets/multimedia/images/viewer/treeitem-expanded@2x.png');
-$url_73: url('/assets/multimedia/images/viewer/treeitem-collapsed@2x.png');
-$url_74: url('/assets/multimedia/images/viewer/treeitem-collapsed-rtl@2x.png');
+$url_0: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAQAAADYWf5HAAAA6UlEQVR4Xl2Pi2rEMAwE16fm1f7/r14v7w4rI0IzLAF7hLxNevBSEMEF5+OilNCsRd8ZMyn+a4NmsOT8WJw1lFbSYgGFzF2bLFoLjTClWjKKGRWpDYAGXUnZ4uhbBUzF3Oe/GG/ue2fn4GgsyXhNgysV2JnrhKEMg4fEZcALmiKbNhBBRFpSyDOj1G4QOVly6O1FV54ZZq8OVygrciDt6JazRgi1ljTPH0gbrPmHPXAbCiDd4GawIjip1TPh9tt2sz24qaCjr/jAb/GBFTbq9KZ7Ke/Cqt8nayUikZKsWZK7Fe6bg5dOUt8fZHWG2BHc+6EAAAAASUVORK5CYII='); // shadow.png
+$url_1: url(''); // loading-icon.gif
+$url_2: url('data:image/png;base64,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'); // texture.png
+$url_3: url('data:image/png;base64,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'); // loading-small.png
+$url_4: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAuklEQVR4AWOgC/g/6f87IJzxn/E/ChsCQUj9wZr/T/4/+7/2PzMyG6IAQmjdWfH/wf/H/zf+Z0VmQxWAKc3bi//f+X/v/9b/nMhskAK4kpvz/1//f+vfjv+8KOz/cPh82v9L/y993H5Y8DASm+EwFP7v+X/5/7nXG5StGFiQ2TCv9v4////kixUSZgxMyGyYdN//0/+PPlnEZcTAiMyGSTf+P/H/4M3JrAZAaSQ2IijVGRyAUBOFTUUAAJfJtuAkOL6dAAAAAElFTkSuQmCC'); // toolbarButton-menuArrows.png
+$url_5: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAqElEQVR4Aa3QoQrCUBSH8W/3JdZtIqgPZPIxVoaGYVpcNwoGm0bBRxh2rZchw7C0e64Xxk7RYdn/FwYL34Fr+DMD/uxfAy4e42FBM2AOBmiR4ykpkgKJVr3tBqEFAwgyu2VlViL+2ksPSIABHG7aAODQ+Tcu6E4EAOgX6P5rAbSgG6cw5onJV2GJFiRYswuEu9rrQ9kHQk0VCJWqEfu0GEucR+lvcR7zAZWDlG3B7eMJAAAAAElFTkSuQmCC'); // toolbarButton-sidebarToggle.png
+$url_6: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAqElEQVR4Aa3QsQrCMBSF4b95ic6Ogii+j5tvURARpDh17Oysg6OODr5Bcdc1iNSlU3PjBWkoaHHp+SBwl3Mghj8x4I/+2eHkMR4mVB3GYIAaWa+iWQNJ8iTfHxBqMIAgix3nQNIiLUYXRGEAh/MvTwMHMKxw6jOhWglXrZoGWglXjw39TEy/GgaEBlFbroGwUfPwUfaGUPIIBH0pEXu3GEucRcvf4izmDdM6lG3Ge8CEAAAAAElFTkSuQmCC'); // toolbarButton-sidebarToggle-rtl.png
+$url_7: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAuklEQVR4AWOgC/g/6f87IJzxn/E/ChsCQUj9wZr/T/4/+7/2PzMyG6IAQmjdWfH/wf/H/zf+Z0VmQxWAKc3bi//f+X/v/9b/nMhskAK4kpvz/1//f+vfjv+8KOz/cPh82v9L/y993H5Y8DASm+EwFP7v+X/5/7nXG5StGFiQ2TCv9v4////kixUSZgxMyGyYdN//0/+PPlnEZcTAiMyGSTf+P/H/4M3JrAZAaSQ2IijVGRyAUBOFTUUAAJfJtuAkOL6dAAAAAElFTkSuQmCC');
+$url_8: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAvUlEQVR4AbXKMStFcRjH8e8fd6AMNrvhdhmUwWDyKrwM78GORbFKd7gDSSlWSZGirkEH3W45nZTJG/ClTk89u/y+y6eeh/9fCVg4YAPos0m2bZMe21iPT+hm086OZ747Hg1Yyo7ztOeOfHvts5gd59nvS198rg7pZRO7nvu6cOiw2W+yiWBqYe3z1Aef3M6WNoSJ+dWPgXc+upNtPAhlZqU+8sZ7d7ONB6F0lqs9r7x1K1uQiB7rv3WB5L/vBxKxq3emJYX0AAAAAElFTkSuQmCC'); // toolbarButton-secondaryToolbarToggle-rtl.png
+$url_9: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAjklEQVR4AZXQQQrCMBCF4XemOYGXFRGKUiLqXgQXguBCECqKiEJS8AjPSYqQVEfwfZsM/VfFn+OSKJXngvdfwZw3Xu1gph8vyggczzwlj4x7BzUbHr9oumCqz4MhBk/HvSkGkFBzZwCYknbC7SdfecAnEF9xE2GQEWSTMOZa2X9SkxFXdtAlw4BS/xT09gKZSB1vHAHV0gAAAABJRU5ErkJggg=='); // findbarButton-previous.png
+$url_10: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAiElEQVR4AZXK0QrBUADG8e+VeAIvK6lFM+FeKxdKuVCriZaoHXUe4c8mndOxnfL9Lr+//h4b5BOhO+t4UHFjFQuubxVLP1jw8JxbFzIXlBQdStJvcOpRMP8Exz42s5IVh24m1VDN6oT9r+esvdsNNHLYNerE3cHIyc2095bYmknklsw4ekvh/QJ0p+zwlWugAwAAAABJRU5ErkJggg=='); // findbarButton-previous-rtl.png
+$url_11: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAiElEQVR4AZXK0QrBUADG8e+VeAIvK6lFM+FeKxdKuVCriZaoHXUe4c8mndOxnfL9Lr+//h4b5BOhO+t4UHFjFQuubxVLP1jw8JxbFzIXlBQdStJvcOpRMP8Exz42s5IVh24m1VDN6oT9r+esvdsNNHLYNerE3cHIyc2095bYmknklsw4ekvh/QJ0p+zwlWugAwAAAABJRU5ErkJggg=='); // findbarButton-next.png
+$url_12: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAjklEQVR4AZXQQQrCMBCF4XemOYGXFRGKUiLqXgQXguBCECqKiEJS8AjPSYqQVEfwfZsM/VfFn+OSKJXngvdfwZw3Xu1gph8vyggczzwlj4x7BzUbHr9oumCqz4MhBk/HvSkGkFBzZwCYknbC7SdfecAnEF9xE2GQEWSTMOZa2X9SkxFXdtAlw4BS/xT09gKZSB1vHAHV0gAAAABJRU5ErkJggg=='); // findbarButton-next-rtl.png
+// $url_13: url(''); // toolbarButton-pageUp.png
+// $url_14: url(''); // toolbarButton-pageUp-rtl.png
+// $url_15: url(''); // toolbarButton-pageDown.png
+// $url_16: url(''); // toolbarButton-pageDown-rtl.png
+// $url_17: url(''); // toolbarButton-zoomOut.png
+// $url_18: url(''); // toolbarButton-zoomIn.png
+// $url_19: url(''); // toolbarButton-presentationMode.png
+// $url_20: url(''); // toolbarButton-print.png
+// $url_21: url(''); // toolbarButton-openFile.png
+// $url_22: url(''); // toolbarButton-download.png
+// $url_23: url(''); // toolbarButton-bookmark.png
+$url_24: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAgElEQVR4AY3QMQoCUQyE4bmSnsC7aqUHeLYigoWwtcWCiCzEgFeYJWyK8KZY81fflMEfx8ZfdibYOYaJn2yiOIZ3SRzDqySOYSyJQXwbn0veHN4ZDmywy7YA1KvHI8fsRLBzDAMf2UBxDPeSOIZbSRzDtSQGYXteluxgsM6wlT/MpbU5LLzvS6wAAAAASUVORK5CYII='); // toolbarButton-viewThumbnail.png
+$url_25: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAeUlEQVR4AZ3QLa4CQRQF4drSYwXslcEwKAg/BhI8FoHAkeC67w6KVpMRN6Hz6tvAyaEjT56lKQmQuMQ1CHwnQPhjAcAy0ZU799J8EiBxiGMQ+Ez8d0OeG0dpXjPgpI51W6l4nwEn6ZauHFxL80iAlFUZCgVvid8/fAHeVdGNCJHufQAAAABJRU5ErkJggg=='); // toolbarButton-viewOutline.png
+$url_26: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAeElEQVR4Aa3QLQ4CQRAF4boSnIC7shgWBeHHQILHIhA4EtzM3KBos8mKJqygvudn0kzIkiAcPQniK4G0c7s0iC0SETPmTMp3grB1J4iPBNL27fCvPzxHCGt7GSDeRpDa101lEPv29vS8JwidK0G8JpCyLF2B8uMOH2P50U1FXwBpAAAAAElFTkSuQmCC'); // toolbarButton-viewOutline-rtl.png
+// $url_27: url(''); // toolbarButton-viewAttachments.png
+// $url_28: url(''); // toolbarButton-search.png
+// $url_29: url(''); // secondaryToolbarButton-firstPage.png
+// $url_30: url(''); // secondaryToolbarButton-lastPage.png
+// $url_31: url(''); // secondaryToolbarButton-rotateCcw.png
+// $url_32: url(''); // secondaryToolbarButton-rotateCw.png
+// $url_33: url(''); // secondaryToolbarButton-handTool.png
+// $url_34: url(''); // secondaryToolbarButton-documentProperties.png
+// $url_35: url(''); // treeitem-expanded.png
+// $url_36: url(''); // treeitem-collapsed.png
+// $url_37: url(''); // treeitem-collapsed-rtl.png
+// $url_38: url(''); // grab.cur
+// $url_39: url(''); // grabbing.cur
+// $url_40: url(''); // loading-small@2x.png
+// $url_41: url(''); // toolbarButton-menuArrows@2x.png
+// $url_42: url(''); // toolbarButton-sidebarToggle@2x.png
+// $url_43: url(''); // toolbarButton-sidebarToggle-rtl@2x.png
+// $url_44: url(''); // toolbarButton-secondaryToolbarToggle@2x.png
+// $url_45: url(''); // toolbarButton-secondaryToolbarToggle-rtl@2x.png
+// $url_46: url(''); // findbarButton-previous@2x.png
+// $url_47: url(''); // findbarButton-previous-rtl@2x.png
+// $url_48: url(''); // findbarButton-next@2x.png
+// $url_49: url(''); // findbarButton-next-rtl@2x.png
+// $url_50: url(''); // toolbarButton-pageUp@2x.png
+// $url_51: url(''); // toolbarButton-pageUp-rtl@2x.png
+// $url_52: url(''); // toolbarButton-pageDown@2x.png
+// $url_53: url(''); // toolbarButton-pageDown-rtl@2x.png
+// $url_54: url(''); // toolbarButton-zoomIn@2x.png
+// $url_55: url(''); // toolbarButton-zoomOut@2x.png
+// $url_56: url(''); // toolbarButton-presentationMode@2x.png
+// $url_57: url(''); // toolbarButton-print@2x.png
+// $url_58: url(''); // toolbarButton-openFile@2x.png
+// $url_59: url(''); // toolbarButton-download@2x.png
+// $url_60: url(''); // toolbarButton-bookmark@2x.png
+// $url_61: url(''); // toolbarButton-viewThumbnail@2x.png
+// $url_62: url(''); // toolbarButton-viewOutline@2x.png
+// $url_63: url(''); // toolbarButton-viewOutline-rtl@2x.png
+// $url_64: url(''); // toolbarButton-viewAttachments@2x.png
+// $url_65: url(''); // toolbarButton-search@2x.png
+// $url_66: url(''); // secondaryToolbarButton-firstPage@2x.png
+// $url_67: url(''); // secondaryToolbarButton-lastPage@2x.png
+// $url_68: url(''); // secondaryToolbarButton-rotateCcw@2x.png
+// $url_69: url(''); // secondaryToolbarButton-rotateCw@2x.png
+// $url_70: url(''); // secondaryToolbarButton-handTool@2x.png
+// $url_71: url(''); // secondaryToolbarButton-documentProperties@2x.png
+$url_72: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAQAAAD8x0bcAAAAc0lEQVR4AWOgM3gx4cUZAnACwwupF8fwKQHKSoPMSserKA1iIduLTbiUAGXYYO6yw6nIlrDzJ6D6URbT+UARKfSgyMDmZHRF7AjnI5yMqcwBRZEN4dDvwx1FciDnYzoZu/NT8Uc3x4vNLzZiOBnT+ZhOBgAIx/kNQRV40AAAAABJRU5ErkJggg==');
+// $url_73: url(''); // treeitem-collapsed@2x.png
+// $url_74: url(''); // treeitem-collapsed-rtl@2x.png
+
 
 //@extend-elements
 //original selectors
@@ -114,2602 +116,443 @@ $url_74: url('/assets/multimedia/images/viewer/treeitem-collapsed-rtl@2x.png');
 	background-image: $url_2, linear-gradient(hsl(201, 100%, 26%), hsl(201, 100%, 26%));
 }
 
+/* Copyright 2014 Mozilla Foundation
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 
-.textLayer {
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	overflow: hidden;
-	opacity: 0.2;
-	line-height: 1.0;
-	> div {
-		color: transparent;
-		position: absolute;
-		white-space: pre;
-		cursor: text;
-		//Instead of the line below you could use @include transform-origin($origin-x, $origin-y, $origin-z, $only3d)
-		transform-origin: 0 0;
-	}
-	.highlight {
-		margin: -1px;
-		padding: 1px;
-		background-color: rgb(180, 0, 170);
-		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-		border-radius: 4px;
-		&.begin {
-			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-			border-radius: 4px 0 0 4px;
-		}
-		&.end {
-			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-			border-radius: 0 4px 4px 0;
-		}
-		&.middle {
-			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-			border-radius: 0;
-		}
-		&.selected {
-			background-color: rgb(0, 100, 0);
-		}
-	}
-	::selection {
-		background: rgb(0,0,255);
-	}
-	::-moz-selection {
-		background: rgb(0,0,255);
-	}
-	.endOfContent {
-		display: block;
-		position: absolute;
-		left: 0;
-		top: 100%;
-		right: 0;
-		bottom: 0;
-		z-index: -1;
-		cursor: default;
-		&.active {
-			top: 0;
-		}
-	}
-}
-.annotationLayer {
-	section {
-		position: absolute;
-	}
-	.textWidgetAnnotation {
-		input {
-			@extend %extend_1;
-			&:hover {
-				border: 1px solid #000;
-			}
-			&:focus {
-				background: none;
-				border: 1px solid transparent;
-			}
-			&.comb {
-				font-family: $font_0;
-				padding-left: 2px;
-				padding-right: 0;
-				&:focus {
-					width: 115%;
-				}
-			}
-		}
-		textarea {
-			@extend %extend_1;
-			font: message-box;
-			font-size: 9px;
-			resize: none;
-			&:hover {
-				border: 1px solid #000;
-			}
-			&:focus {
-				background: none;
-				border: 1px solid transparent;
-			}
-		}
-		input[disabled] {
-			@extend %extend_2;
-		}
-		textarea[disabled] {
-			@extend %extend_2;
-		}
-	}
-	.choiceWidgetAnnotation {
-		select {
-			@extend %extend_1;
-			&:hover {
-				border: 1px solid #000;
-			}
-			&:focus {
-				background: none;
-				border: 1px solid transparent;
-			}
-		}
-		select[disabled] {
-			@extend %extend_2;
-		}
-	}
-	.buttonWidgetAnnotation {
-		&.checkBox {
-			input {
-				@extend %extend_1;
-				appearance: none;
-				&:hover {
-					border: 1px solid #000;
-				}
-			}
-			input[disabled] {
-				@extend %extend_2;
-			}
-		}
-		&.radioButton {
-			input {
-				@extend %extend_1;
-				appearance: none;
-				&:hover {
-					border: 1px solid #000;
-				}
-			}
-			input[disabled] {
-				@extend %extend_2;
-			}
-		}
-	}
-	.popupWrapper {
-		position: absolute;
-		width: 20em;
-	}
-	.popup {
-		position: absolute;
-		z-index: 200;
-		max-width: 20em;
-		background-color: #ffff99;
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 2px 5px #333;
-		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-		border-radius: 2px;
-		padding: 0.6em;
-		margin-left: 5px;
-		cursor: pointer;
-		word-wrap: break-word;
-		h1 {
-			font-size: 1em;
-			border-bottom: 1px solid #000000;
-			padding-bottom: 0.2em;
-		}
-		p {
-			padding-top: 0.2em;
-		}
-	}
-	.highlightAnnotation {
-		cursor: pointer;
-	}
-	.underlineAnnotation {
-		cursor: pointer;
-	}
-	.squigglyAnnotation {
-		cursor: pointer;
-	}
-	.strikeoutAnnotation {
-		cursor: pointer;
-	}
-	.fileAttachmentAnnotation {
-		cursor: pointer;
-	}
-	.linkAnnotation > a {
-		position: absolute;
-		font-size: 1em;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: url($data_uri_0) 0 0 repeat;
-		&:hover {
-			opacity: 0.2;
-			background: #ff0;
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 2px 10px #ff0;
-		}
-	}
-	.textAnnotation img {
-		position: absolute;
-		cursor: pointer;
-	}
-	.lineAnnotation svg line {
-		cursor: pointer;
-	}
-}
-.pdfViewer {
-	.canvasWrapper {
-		overflow: hidden;
-		//Instead of the line below you could use @include user-select($select)
-		user-select: none;
-	}
-	.page {
-		direction: ltr;
-		width: 816px;
-		height: 1056px;
-		margin: 1px auto -8px auto;
-		position: relative;
-		overflow: visible;
-		border: 9px solid transparent;
-		//Instead of the line below you could use @include background-clip($clip)
-		background-clip: content-box;
-		//Instead of the line below you could use @include border-image($value)
-		border-image: $url_0 9 9 repeat;
-		background-color: white;
-		//Instead of the line below you could use @include user-select($select)
-		user-select: none;
-		canvas {
-			margin: 0;
-			display: block;
-			pointer-events: none;
-		}
-		.loadingIcon {
-			position: absolute;
-			display: block;
-			left: 0;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			background: $url_1 center no-repeat;
-		}
-	}
-	&.singlePageView {
-		display: inline-block;
-		.page {
-			margin: 0;
-			border: none;
-		}
-	}
-	&.removePageBorders .page {
-		margin: 0 auto 10px auto;
-		border: none;
-		//Instead of the line below you could use @include user-select($select)
-		user-select: none;
-	}
-}
-.pdfPresentationMode {
-	&:-webkit-full-screen {
-		.pdfViewer .page {
-			margin-bottom: 100%;
-			border: 0;
-		}
-		a:not(.internalLink) {
-			display: none;
-		}
-		.textLayer > div {
-			cursor: none;
-		}
-	}
-	&:-moz-full-screen {
-		.pdfViewer .page {
-			margin-bottom: 100%;
-			border: 0;
-		}
-		a:not(.internalLink) {
-			display: none;
-		}
-		.textLayer > div {
-			cursor: none;
-		}
-	}
-	&:-ms-fullscreen {
-		.pdfViewer .page {
-			margin-bottom: 100% !important;
-			border: 0;
-		}
-		a:not(.internalLink) {
-			display: none !important;
-		}
-		.textLayer > div {
-			cursor: none;
-		}
-	}
-	&:fullscreen {
-		.pdfViewer .page {
-			margin-bottom: 100%;
-			border: 0;
-		}
-		a:not(.internalLink) {
-			display: none;
-		}
-		.textLayer > div {
-			cursor: none;
-		}
-	}
-	&.pdfPresentationModeControls {
-		> * {
-			cursor: default;
-		}
-		.textLayer > div {
-			cursor: default;
-		}
-	}
-}
-* {
-	padding: 0;
-	margin: 0;
-}
-html {
-	height: 100%;
-	width: 100%;
-	font-size: 10px;
-}
-body {
-	height: 100%;
-	width: 100%;
-	background-color: #404040;
-	background-image: $url_2;
-	font: message-box;
-	outline: none;
-}
-input {
-	font: message-box;
-	outline: none;
-}
-button {
-	font: message-box;
-	outline: none;
-}
-select {
-	font: message-box;
-	outline: none;
-}
-.hidden {
-	display: none !important;
-}
-[hidden] {
-	display: none !important;
-}
-#viewerContainer {
-	overflow: auto;
-	position: absolute;
-	top: 32px;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	outline: none;
-	&.pdfPresentationMode {
-		&:-webkit-full-screen {
-			top: 0;
-			border-top: 2px solid transparent;
-			background-color: #000;
-			width: 100%;
-			height: 100%;
-			overflow: hidden;
-			cursor: none;
-		}
-		&:-moz-full-screen {
-			top: 0;
-			border-top: 2px solid transparent;
-			background-color: #000;
-			width: 100%;
-			height: 100%;
-			overflow: hidden;
-			cursor: none;
-		}
-		&:-ms-fullscreen {
-			top: 0 !important;
-			border-top: 2px solid transparent;
-			width: 100%;
-			height: 100%;
-			overflow: hidden !important;
-			cursor: none;
-		}
-		&:-ms-fullscreen::-ms-backdrop {
-			background-color: #000;
-		}
-		&:fullscreen {
-			top: 0;
-			border-top: 2px solid transparent;
-			background-color: #000;
-			width: 100%;
-			height: 100%;
-			overflow: hidden;
-			cursor: none;
-		}
-	}
-}
-#outerContainer {
-	width: 100%;
-	height: calc(100% - 5rem);
-	position: relative;
-	&.sidebarMoving > #sidebarContainer {
-		visibility: visible;
-	}
-	&.sidebarOpen > #sidebarContainer {
-		visibility: visible;
-	}
-}
-#sidebarContainer {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 200px;
-	visibility: hidden;
-	//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-	transition-duration: 200ms;
-	//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-	transition-timing-function: ease;
-}
-html[dir='ltr'] {
-	#sidebarContainer {
-		//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-		transition-property: left;
-		left: -200px;
-	}
-	#sidebarContent {
-		left: 0;
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: inset -1px 0 0 hsla(0,0%,0%,.25);
-	}
-	#viewerContainer {
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: inset 1px 0 0 hsla(0,0%,100%,.05);
-	}
-	#toolbarSidebar {
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.25), inset 0 -1px 0 hsla(0,0%,100%,.05), 0 1px 0 hsla(0,0%,0%,.15), 0 0 1px hsla(0,0%,0%,.1);
-	}
-	#toolbarContainer {
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: inset 1px 0 0 hsla(0,0%,100%,.08), inset 0 1px 1px hsla(0,0%,0%,.15), inset 0 -1px 0 hsla(0,0%,100%,.05), 0 1px 0 hsla(0,0%,0%,.15), 0 1px 1px hsla(0,0%,0%,.1);
-	}
-	.findbar {
-		left: 68px;
-		* {
-			position: relative;
-			float: left;
-		}
-	}
-	.secondaryToolbar {
-		right: 4px;
-	}
-	.doorHanger {
-		&:after {
-			left: 13px;
-			margin-left: -8px;
-		}
-		&:before {
-			left: 13px;
-			margin-left: -9px;
-		}
-	}
-	.doorHangerRight {
-		&:after {
-			right: 13px;
-			margin-right: -8px;
-		}
-		&:before {
-			right: 13px;
-			margin-right: -9px;
-		}
-	}
-	#toolbarViewerLeft {
-		float: left;
-		> * {
-			position: relative;
-			float: left;
-		}
-	}
-	#toolbarViewerRight {
-		float: right;
-		> * {
-			position: relative;
-			float: left;
-		}
-	}
-	.splitToolbarButton {
-		margin: 3px 2px 4px 0;
-		display: inline-block;
-		&:first-child {
-			margin-left: 4px;
-		}
-		&:last-child {
-			margin-right: 4px;
-		}
-		> .toolbarButton {
-			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-			border-radius: 0;
-			float: left;
-			&:first-child {
-				position: relative;
-				margin: 0;
-				margin-right: -1px;
-				//Instead of the line below you could use @include border-top-left-radius($radius)
-				border-top-left-radius: 2px;
-				//Instead of the line below you could use @include border-bottom-left-radius($radius)
-				border-bottom-left-radius: 2px;
-				border-right-color: transparent;
-			}
-			&:last-child {
-				position: relative;
-				margin: 0;
-				margin-left: -1px;
-				//Instead of the line below you could use @include border-top-right-radius($radius)
-				border-top-right-radius: 2px;
-				//Instead of the line below you could use @include border-bottom-right-radius($radius)
-				border-bottom-right-radius: 2px;
-				border-left-color: transparent;
-			}
-		}
-	}
-	.splitToolbarButtonSeparator {
-		float: left;
-	}
-	.toolbarButton {
-		margin: 3px 2px 4px 0;
-		&:first-child {
-			margin-left: 4px;
-		}
-		&:last-child {
-			margin-right: 4px;
-		}
-		&#sidebarToggle::before {
-			content: $url_5;
-		}
-		&#secondaryToolbarToggle::before {
-			content: $url_7;
-		}
-		&.findPrevious::before {
-			content: $url_9;
-		}
-		&.findNext::before {
-			content: $url_11;
-		}
-		&.pageUp::before {
-			content: $url_13;
-		}
-		&.pageDown::before {
-			content: $url_15;
-		}
-		&.pdfSidebarNotification::after {
-			left: 17px;
-		}
-	}
-	.overlayButton {
-		margin: 3px 2px 4px 0;
-	}
-	.dropdownToolbarButton {
-		margin: 3px 2px 4px 0;
-		background-position: 95%;
-	}
-	#findPrevious {
-		margin-left: 3px;
-	}
-	#findNext {
-		margin-right: 3px;
-	}
-	.verticalToolbarSeparator {
-		margin-left: 2px;
-	}
-	.outlineItem {
-		> a {
-			padding: 2px 0 5px 4px;
-		}
-		> .outlineItems {
-			margin-left: 20px;
-		}
-	}
-	.outlineItemToggler {
-		float: left;
-		&.outlineItemsHidden::before {
-			content: $url_36;
-		}
-	}
-	.outlineItemToggler::before {
-		right: 4px;
-	}
-	#outerContainer.sidebarOpen > {
-		#sidebarContainer {
-			left: 0;
-		}
-		#mainContainer {
-			//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-			transition-property: left;
-			left: 200px;
-		}
-	}
-	#toolbarViewerMiddle > * {
-		position: relative;
-		float: left;
-	}
-	.outlineWithDeepNesting > .outlineItem {
-		margin-left: 20px;
-	}
-	.attachmentsItem > button {
-		padding: 2px 0 3px 7px;
-		text-align: left;
-	}
-	#documentPropertiesOverlay .row > * {
-		text-align: left;
-	}
-}
-html[dir='rtl'] {
-	#sidebarContainer {
-		//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-		transition-property: right;
-		right: -200px;
-	}
-	#sidebarContent {
-		right: 0;
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: inset 1px 0 0 hsla(0,0%,0%,.25);
-	}
-	#viewerContainer {
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: inset -1px 0 0 hsla(0,0%,100%,.05);
-	}
-	#toolbarSidebar {
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25), inset 0 1px 0 hsla(0,0%,100%,.05), 0 1px 0 hsla(0,0%,0%,.15), 0 0 1px hsla(0,0%,0%,.1);
-	}
-	#toolbarContainer {
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: inset -1px 0 0 hsla(0,0%,100%,.08), inset 0 1px 1px hsla(0,0%,0%,.15), inset 0 -1px 0 hsla(0,0%,100%,.05), 0 1px 0 hsla(0,0%,0%,.15), 0 1px 1px hsla(0,0%,0%,.1);
-	}
-	.findbar {
-		right: 68px;
-		* {
-			position: relative;
-			float: right;
-		}
-	}
-	#findInput[data-status="pending"] {
-		background-position: left;
-	}
-	.secondaryToolbar {
-		left: 4px;
-	}
-	.doorHangerRight {
-		&:after {
-			left: 13px;
-			margin-left: -8px;
-		}
-		&:before {
-			left: 13px;
-			margin-left: -9px;
-		}
-	}
-	.doorHanger {
-		&:after {
-			right: 13px;
-			margin-right: -8px;
-		}
-		&:before {
-			right: 13px;
-			margin-right: -9px;
-		}
-	}
-	#toolbarViewerRight {
-		float: left;
-		> * {
-			position: relative;
-			float: right;
-		}
-	}
-	#toolbarViewerLeft {
-		float: right;
-		> * {
-			position: relative;
-			float: right;
-		}
-	}
-	.splitToolbarButton {
-		margin: 3px 0 4px 2px;
-		display: inline-block;
-		&:last-child {
-			margin-left: 4px;
-		}
-		&:first-child {
-			margin-right: 4px;
-		}
-		> .toolbarButton {
-			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-			border-radius: 0;
-			float: right;
-			&:last-child {
-				position: relative;
-				margin: 0;
-				margin-right: -1px;
-				//Instead of the line below you could use @include border-top-left-radius($radius)
-				border-top-left-radius: 2px;
-				//Instead of the line below you could use @include border-bottom-left-radius($radius)
-				border-bottom-left-radius: 2px;
-				border-right-color: transparent;
-			}
-			&:first-child {
-				position: relative;
-				margin: 0;
-				margin-left: -1px;
-				//Instead of the line below you could use @include border-top-right-radius($radius)
-				border-top-right-radius: 2px;
-				//Instead of the line below you could use @include border-bottom-right-radius($radius)
-				border-bottom-right-radius: 2px;
-				border-left-color: transparent;
-			}
-		}
-	}
-	.splitToolbarButtonSeparator {
-		float: right;
-	}
-	.toolbarButton {
-		margin: 3px 0 4px 2px;
-		&:last-child {
-			margin-left: 4px;
-		}
-		&:first-child {
-			margin-right: 4px;
-		}
-		&#sidebarToggle::before {
-			content: $url_6;
-		}
-		&#secondaryToolbarToggle::before {
-			content: $url_8;
-		}
-		&.findPrevious::before {
-			content: $url_10;
-		}
-		&.findNext::before {
-			content: $url_12;
-		}
-		&.pageUp::before {
-			content: $url_14;
-		}
-		&.pageDown::before {
-			content: $url_16;
-		}
-		&.pdfSidebarNotification::after {
-			right: 17px;
-		}
-	}
-	.overlayButton {
-		margin: 3px 0 4px 2px;
-	}
-	.dropdownToolbarButton {
-		margin: 3px 0 4px 2px;
-		background-position: 5%;
-	}
-	#findPrevious {
-		margin-right: 3px;
-	}
-	#findNext {
-		margin-left: 3px;
-	}
-	.verticalToolbarSeparator {
-		margin-right: 2px;
-	}
-	.outlineItem {
-		> a {
-			padding: 2px 4px 5px 0;
-		}
-		> .outlineItems {
-			margin-right: 20px;
-		}
-	}
-	.outlineItemToggler {
-		float: right;
-		&.outlineItemsHidden::before {
-			content: $url_37;
-		}
-	}
-	.outlineItemToggler::before {
-		left: 4px;
-	}
-	#outerContainer.sidebarOpen > {
-		#sidebarContainer {
-			right: 0;
-		}
-		#mainContainer {
-			//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-			transition-property: right;
-			right: 200px;
-		}
-	}
-	#toolbarViewerMiddle > * {
-		position: relative;
-		float: right;
-	}
-	.outlineWithDeepNesting > .outlineItem {
-		margin-right: 20px;
-	}
-	.attachmentsItem > button {
-		padding: 2px 7px 3px 0;
-		text-align: right;
-	}
-	#documentPropertiesOverlay .row > * {
-		text-align: right;
-	}
-}
-#mainContainer {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	min-width: 320px;
-	//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-	transition-duration: 200ms;
-	//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-	transition-timing-function: ease;
-}
-#sidebarContent {
-	top: 32px;
-	bottom: 0;
-	overflow: auto;
-	position: absolute;
-	width: 200px;
-	background-color: hsla(0,0%,0%,.1);
-}
-.toolbar {
-	position: relative;
-	left: 0;
-	right: 0;
-	z-index: 9999;
-	cursor: default;
-}
-#toolbarContainer {
-	width: 100%;
-	@extend %extend_3;
-}
-#toolbarSidebar {
-	width: 200px;
-	height: 32px;
-	background-color: #424242;
-	background-image: $url_2, linear-gradient(hsla(0,0%,30%,.99), hsla(0,0%,25%,.95));
-	background-color: #005583;
-	background-image: $url_2, linear-gradient(hsl(201, 100%, 26%), hsl(201, 100%, 26%));
-}
-.findbar {
-	@extend %extend_3;
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: inset 1px 0 0 hsla(0,0%,100%,.08), inset 0 1px 1px hsla(0,0%,0%,.15), inset 0 -1px 0 hsla(0,0%,100%,.05), 0 1px 0 hsla(0,0%,0%,.15), 0 1px 1px hsla(0,0%,0%,.1);
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: inset -1px 0 0 hsla(0,0%,100%,.08), inset 0 1px 1px hsla(0,0%,0%,.15), inset 0 -1px 0 hsla(0,0%,100%,.05), 0 1px 0 hsla(0,0%,0%,.15), 0 1px 1px hsla(0,0%,0%,.1);
-	top: 32px;
-	position: absolute;
-	z-index: 10000;
-	height: auto;
-	min-width: 16px;
-	padding: 0 6px;
-	margin: 4px 2px;
-	color: hsl(0,0%,85%);
-	font-size: 12px;
-	line-height: 14px;
-	text-align: left;
-	cursor: default;
-	min-width: 300px;
-	> div {
-		height: 32px;
-	}
-	label {
-	}
-	&.wrapContainers > div {
-		clear: both;
-		&#findbarMessageContainer {
-			height: auto;
-		}
-	}
-}
-.secondaryToolbar {
-	@extend %extend_3;
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: inset 1px 0 0 hsla(0,0%,100%,.08), inset 0 1px 1px hsla(0,0%,0%,.15), inset 0 -1px 0 hsla(0,0%,100%,.05), 0 1px 0 hsla(0,0%,0%,.15), 0 1px 1px hsla(0,0%,0%,.1);
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: inset -1px 0 0 hsla(0,0%,100%,.08), inset 0 1px 1px hsla(0,0%,0%,.15), inset 0 -1px 0 hsla(0,0%,100%,.05), 0 1px 0 hsla(0,0%,0%,.15), 0 1px 1px hsla(0,0%,0%,.1);
-	top: 32px;
-	position: absolute;
-	z-index: 10000;
-	height: auto;
-	min-width: 16px;
-	padding: 0 6px;
-	margin: 4px 2px;
-	color: hsl(0,0%,85%);
-	font-size: 12px;
-	line-height: 14px;
-	text-align: left;
-	cursor: default;
-	padding: 6px;
-	height: auto;
-	z-index: 30000;
-}
-#toolbarViewer {
-	height: 32px;
-}
-#loadingBar {
-	position: relative;
-	width: 100%;
-	height: 4px;
-	background-color: #333;
-	border-bottom: 1px solid #333;
-	.progress {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 0;
-		height: 100%;
-		background-color: #ddd;
-		overflow: hidden;
-		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-		transition: width 200ms;
-		&.indeterminate {
-			background-color: #999;
-			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-			transition: none;
-			.glimmer {
-				position: absolute;
-				top: 0;
-				left: 0;
-				height: 100%;
-				width: calc(100% +150px);
-				background: repeating-linear-gradient(135deg, #bbb 0, #999 5px, #999 45px, #ddd 55px, #ddd 95px, #bbb 100px);
-				animation: progressIndeterminate 950ms linear infinite;
-			}
-		}
-	}
-}
-@-webkit-keyframes progressIndeterminate {
-	0% {
-		left: -142px;
-	}
-	100% {
-		left: 0;
-	}
-}
-@keyframes progressIndeterminate {
-	0% {
-		left: -142px;
-	}
-	100% {
-		left: 0;
-	}
-}
-#findInput {
-	width: 200px;
-	&:-ms-input-placeholder {
-		font-style: italic;
-	}
-	&.notFound {
-		background-color: rgb(255, 102, 102);
-	}
-}
-#findInput::-webkit-input-placeholder {
-	font-style: italic;
-}
-#findInput::-moz-placeholder {
-	font-style: italic;
-}
-#findInput::placeholder {
-	font-style: italic;
-}
-#findInput[data-status="pending"] {
-	background-image: $url_3;
-	background-repeat: no-repeat;
-	background-position: right;
-}
-#secondaryToolbarButtonContainer {
-	max-width: 200px;
-	max-height: 400px;
-	overflow-y: auto;
-	margin-bottom: -4px;
-}
-.doorHanger {
-	border: 1px solid hsla(0,0%,0%,.5);
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 2px;
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-	&:after {
-		bottom: 100%;
-		border: solid transparent;
-		content: " ";
-		height: 0;
-		width: 0;
-		position: absolute;
-		pointer-events: none;
-		border-bottom-color: hsla(0,0%,32%,.99);
-		border-width: 8px;
-	}
-	&:before {
-		bottom: 100%;
-		border: solid transparent;
-		content: " ";
-		height: 0;
-		width: 0;
-		position: absolute;
-		pointer-events: none;
-		border-bottom-color: hsla(0,0%,0%,.5);
-		border-width: 9px;
-	}
-}
-.doorHangerRight {
-	border: 1px solid hsla(0,0%,0%,.5);
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 2px;
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-	&:after {
-		bottom: 100%;
-		border: solid transparent;
-		content: " ";
-		height: 0;
-		width: 0;
-		position: absolute;
-		pointer-events: none;
-		border-bottom-color: hsla(0,0%,32%,.99);
-		border-width: 8px;
-	}
-	&:before {
-		bottom: 100%;
-		border: solid transparent;
-		content: " ";
-		height: 0;
-		width: 0;
-		position: absolute;
-		pointer-events: none;
-		border-bottom-color: hsla(0,0%,0%,.5);
-		border-width: 9px;
-	}
-}
-#findResultsCount {
-	background-color: hsl(0, 0%, 85%);
-	color: hsl(0, 0%, 32%);
-	text-align: center;
-	padding: 3px 4px;
-}
-#findMsg {
-	font-style: italic;
-	color: #a6b7d0;
-	&:empty {
-		display: none;
-	}
-}
-#toolbarViewerMiddle {
-	position: absolute;
-	left: 50%;
-	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-	transform: translateX(-50%);
-}
-.toolbarButton {
-	border: 0 none;
-	background: none;
-	width: 32px;
-	height: 25px;
-	min-width: 16px;
-	padding: 2px 6px 0;
-	border: 1px solid transparent;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 2px;
-	color: hsla(0,0%,100%,.8);
-	font-size: 12px;
-	line-height: 14px;
-	cursor: default;
-	//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-	transition-property: background-color, border-color, box-shadow;
-	//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-	transition-duration: 150ms;
-	//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-	transition-timing-function: ease;
-	> span {
-		display: inline-block;
-		width: 0;
-		height: 0;
-		overflow: hidden;
-	}
-	&.textButton {
-		background-color: hsla(0,0%,0%,.12);
-		background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-		//Instead of the line below you could use @include background-clip($clip)
-		background-clip: padding-box;
-		border: 1px solid hsla(0,0%,0%,.35);
-		border-color: hsla(0,0%,0%,.32) hsla(0,0%,0%,.38) hsla(0,0%,0%,.42);
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 1px 0 hsla(0,0%,100%,.05);
-		//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-		transition-property: background-color, border-color, box-shadow;
-		//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-		transition-duration: 150ms;
-		//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-		transition-timing-function: ease;
-		&:hover {
-			background-color: hsla(0,0%,0%,.2);
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 0 1px hsla(0,0%,0%,.05);
-			z-index: 199;
-		}
-		&:focus {
-			background-color: hsla(0,0%,0%,.2);
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 0 1px hsla(0,0%,0%,.05);
-			z-index: 199;
-		}
-	}
-	&:hover {
-		background-color: hsla(0,0%,0%,.12);
-		background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-		//Instead of the line below you could use @include background-clip($clip)
-		background-clip: padding-box;
-		border: 1px solid hsla(0,0%,0%,.35);
-		border-color: hsla(0,0%,0%,.32) hsla(0,0%,0%,.38) hsla(0,0%,0%,.42);
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 1px 0 hsla(0,0%,100%,.05);
-		&:active {
-			background-color: hsla(0,0%,0%,.2);
-			background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-			border-color: hsla(0,0%,0%,.35) hsla(0,0%,0%,.4) hsla(0,0%,0%,.45);
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 1px hsla(0,0%,0%,.1) inset, 0 0 1px hsla(0,0%,0%,.2) inset, 0 1px 0 hsla(0,0%,100%,.05);
-			//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-			transition-property: background-color, border-color, box-shadow;
-			//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-			transition-duration: 10ms;
-			//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-			transition-timing-function: linear;
-		}
-	}
-	&:focus {
-		background-color: hsla(0,0%,0%,.12);
-		background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-		//Instead of the line below you could use @include background-clip($clip)
-		background-clip: padding-box;
-		border: 1px solid hsla(0,0%,0%,.35);
-		border-color: hsla(0,0%,0%,.32) hsla(0,0%,0%,.38) hsla(0,0%,0%,.42);
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 1px 0 hsla(0,0%,100%,.05);
-	}
-	&.toggled {
-		background-color: hsla(0,0%,0%,.3);
-		background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-		border-color: hsla(0,0%,0%,.4) hsla(0,0%,0%,.45) hsla(0,0%,0%,.5);
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 1px 1px hsla(0,0%,0%,.1) inset, 0 0 1px hsla(0,0%,0%,.2) inset, 0 1px 0 hsla(0,0%,100%,.05);
-		//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-		transition-property: background-color, border-color, box-shadow;
-		//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-		transition-duration: 10ms;
-		//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-		transition-timing-function: linear;
-		&:hover:active {
-			background-color: hsla(0,0%,0%,.4);
-			border-color: hsla(0,0%,0%,.4) hsla(0,0%,0%,.5) hsla(0,0%,0%,.55);
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 1px hsla(0,0%,0%,.2) inset, 0 0 1px hsla(0,0%,0%,.3) inset, 0 1px 0 hsla(0,0%,100%,.05);
-		}
-	}
-	&.zoomOut::before {
-		content: $url_17;
-	}
-	&.zoomIn::before {
-		content: $url_18;
-	}
-	&.presentationMode::before {
-		content: $url_19;
-	}
-	&.print::before {
-		content: $url_20;
-	}
-	&.openFile::before {
-		content: $url_21;
-	}
-	&.download::before {
-		content: $url_22;
-	}
-	&.bookmark {
-		//Instead of the line below you could use @include box-sizing($bs)
-		box-sizing: border-box;
-		outline: none;
-		padding-top: 4px;
-		text-decoration: none;
-	}
-	&.bookmark::before {
-		content: $url_23;
-	}
-	&.pdfSidebarNotification::after {
-		position: absolute;
-		display: inline-block;
-		top: 1px;
-		content: '';
-		background-color: #70db55;
-		height: 9px;
-		width: 9px;
-		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-		border-radius: 50%;
-	}
-}
-.secondaryToolbarButton {
-	border: 0 none;
-	background: none;
-	width: 32px;
-	height: 25px;
-	min-width: 16px;
-	padding: 2px 6px 0;
-	border: 1px solid transparent;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 2px;
-	color: hsla(0,0%,100%,.8);
-	font-size: 12px;
-	line-height: 14px;
-	cursor: default;
-	//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-	transition-property: background-color, border-color, box-shadow;
-	//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-	transition-duration: 150ms;
-	//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-	transition-timing-function: ease;
-	position: relative;
-	margin: 0 0 4px 0;
-	padding: 3px 0 1px;
-	height: auto;
-	min-height: 25px;
-	width: auto;
-	min-width: 100%;
-	white-space: normal;
-	&:hover {
-		background-color: hsla(0,0%,0%,.12);
-		background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-		//Instead of the line below you could use @include background-clip($clip)
-		background-clip: padding-box;
-		border: 1px solid hsla(0,0%,0%,.35);
-		border-color: hsla(0,0%,0%,.32) hsla(0,0%,0%,.38) hsla(0,0%,0%,.42);
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 1px 0 hsla(0,0%,100%,.05);
-		&:active {
-			background-color: hsla(0,0%,0%,.2);
-			background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-			border-color: hsla(0,0%,0%,.35) hsla(0,0%,0%,.4) hsla(0,0%,0%,.45);
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 1px hsla(0,0%,0%,.1) inset, 0 0 1px hsla(0,0%,0%,.2) inset, 0 1px 0 hsla(0,0%,100%,.05);
-			//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-			transition-property: background-color, border-color, box-shadow;
-			//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-			transition-duration: 10ms;
-			//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-			transition-timing-function: linear;
-		}
-	}
-	&:focus {
-		background-color: hsla(0,0%,0%,.12);
-		background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-		//Instead of the line below you could use @include background-clip($clip)
-		background-clip: padding-box;
-		border: 1px solid hsla(0,0%,0%,.35);
-		border-color: hsla(0,0%,0%,.32) hsla(0,0%,0%,.38) hsla(0,0%,0%,.42);
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 1px 0 hsla(0,0%,100%,.05);
-	}
-	&.toggled {
-		background-color: hsla(0,0%,0%,.3);
-		background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-		border-color: hsla(0,0%,0%,.4) hsla(0,0%,0%,.45) hsla(0,0%,0%,.5);
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 1px 1px hsla(0,0%,0%,.1) inset, 0 0 1px hsla(0,0%,0%,.2) inset, 0 1px 0 hsla(0,0%,100%,.05);
-		//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-		transition-property: background-color, border-color, box-shadow;
-		//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-		transition-duration: 10ms;
-		//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-		transition-timing-function: linear;
-		&:hover:active {
-			background-color: hsla(0,0%,0%,.4);
-			border-color: hsla(0,0%,0%,.4) hsla(0,0%,0%,.5) hsla(0,0%,0%,.55);
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 1px hsla(0,0%,0%,.2) inset, 0 0 1px hsla(0,0%,0%,.3) inset, 0 1px 0 hsla(0,0%,100%,.05);
-		}
-	}
-	&.presentationMode::before {
-		content: $url_19;
-	}
-	&.print::before {
-		content: $url_20;
-	}
-	&.openFile::before {
-		content: $url_21;
-	}
-	&.download::before {
-		content: $url_22;
-	}
-	&.bookmark {
-		//Instead of the line below you could use @include box-sizing($bs)
-		box-sizing: border-box;
-		outline: none;
-		padding-top: 4px;
-		text-decoration: none;
-		padding-top: 5px;
-	}
-	&.bookmark::before {
-		content: $url_23;
-	}
-	&.firstPage::before {
-		content: $url_29;
-	}
-	&.lastPage::before {
-		content: $url_30;
-	}
-	&.rotateCcw::before {
-		content: $url_31;
-	}
-	&.rotateCw::before {
-		content: $url_32;
-	}
-	&.handTool::before {
-		content: $url_33;
-	}
-	&.documentProperties::before {
-		content: $url_34;
-	}
-}
-.overlayButton {
-	border: 0 none;
-	background: none;
-	width: 32px;
-	height: 25px;
-	min-width: 16px;
-	padding: 2px 6px 0;
-	border: 1px solid transparent;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 2px;
-	color: hsla(0,0%,100%,.8);
-	font-size: 12px;
-	line-height: 14px;
-	cursor: default;
-	//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-	transition-property: background-color, border-color, box-shadow;
-	//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-	transition-duration: 150ms;
-	//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-	transition-timing-function: ease;
-	background-color: hsla(0,0%,0%,.12);
-	background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-	//Instead of the line below you could use @include background-clip($clip)
-	background-clip: padding-box;
-	border: 1px solid hsla(0,0%,0%,.35);
-	border-color: hsla(0,0%,0%,.32) hsla(0,0%,0%,.38) hsla(0,0%,0%,.42);
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 1px 0 hsla(0,0%,100%,.05);
-	width: auto;
-	margin: 3px 4px 2px 4px !important;
-	padding: 2px 6px 3px;
-	&:hover {
-		background-color: hsla(0,0%,0%,.2);
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 0 1px hsla(0,0%,0%,.05);
-		z-index: 199;
-		&:active {
-			background-color: hsla(0,0%,0%,.2);
-			background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-			border-color: hsla(0,0%,0%,.35) hsla(0,0%,0%,.4) hsla(0,0%,0%,.45);
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 1px hsla(0,0%,0%,.1) inset, 0 0 1px hsla(0,0%,0%,.2) inset, 0 1px 0 hsla(0,0%,100%,.05);
-			//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-			transition-property: background-color, border-color, box-shadow;
-			//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-			transition-duration: 10ms;
-			//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-			transition-timing-function: linear;
-		}
-	}
-	&:focus {
-		background-color: hsla(0,0%,0%,.2);
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 0 1px hsla(0,0%,0%,.05);
-		z-index: 199;
-	}
-}
-.toolbarButton[disabled] {
-	opacity: .5;
-}
-.secondaryToolbarButton[disabled] {
-	opacity: .5;
-}
-.overlayButton[disabled] {
-	opacity: .5;
-}
-.splitToolbarButton {
-	&.toggled {
-		.toolbarButton {
-			margin: 0;
-		}
-		> {
-			.toolbarButton {
-				background-color: hsla(0,0%,0%,.12);
-				background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-				//Instead of the line below you could use @include background-clip($clip)
-				background-clip: padding-box;
-				border: 1px solid hsla(0,0%,0%,.35);
-				border-color: hsla(0,0%,0%,.32) hsla(0,0%,0%,.38) hsla(0,0%,0%,.42);
-				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-				box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 1px 0 hsla(0,0%,100%,.05);
-				//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-				transition-property: background-color, border-color, box-shadow;
-				//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-				transition-duration: 150ms;
-				//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-				transition-timing-function: ease;
-				&.toggled {
-					background-color: hsla(0,0%,0%,.3);
-					background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-					border-color: hsla(0,0%,0%,.4) hsla(0,0%,0%,.45) hsla(0,0%,0%,.5);
-					//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-					box-shadow: 0 1px 1px hsla(0,0%,0%,.1) inset, 0 0 1px hsla(0,0%,0%,.2) inset, 0 1px 0 hsla(0,0%,100%,.05);
-					//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-					transition-property: background-color, border-color, box-shadow;
-					//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-					transition-duration: 10ms;
-					//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-					transition-timing-function: linear;
-					&:hover:active {
-						background-color: hsla(0,0%,0%,.4);
-						border-color: hsla(0,0%,0%,.4) hsla(0,0%,0%,.5) hsla(0,0%,0%,.55);
-						//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-						box-shadow: 0 1px 1px hsla(0,0%,0%,.2) inset, 0 0 1px hsla(0,0%,0%,.3) inset, 0 1px 0 hsla(0,0%,100%,.05);
-					}
-				}
-			}
-			.splitToolbarButtonSeparator {
-				padding: 12px 0;
-				margin: 1px 0;
-				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-				box-shadow: 0 0 0 1px hsla(0,0%,100%,.03);
-				//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-				transition-property: padding;
-				//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-				transition-duration: 10ms;
-				//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-				transition-timing-function: ease;
-			}
-		}
-	}
-	&:hover > {
-		.toolbarButton {
-			background-color: hsla(0,0%,0%,.12);
-			background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-			//Instead of the line below you could use @include background-clip($clip)
-			background-clip: padding-box;
-			border: 1px solid hsla(0,0%,0%,.35);
-			border-color: hsla(0,0%,0%,.32) hsla(0,0%,0%,.38) hsla(0,0%,0%,.42);
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 1px 0 hsla(0,0%,100%,.05);
-			//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-			transition-property: background-color, border-color, box-shadow;
-			//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-			transition-duration: 150ms;
-			//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-			transition-timing-function: ease;
-		}
-		.splitToolbarButtonSeparator {
-			padding: 12px 0;
-			margin: 1px 0;
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 0 0 1px hsla(0,0%,100%,.03);
-			//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-			transition-property: padding;
-			//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-			transition-duration: 10ms;
-			//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-			transition-timing-function: ease;
-		}
-	}
-	&:focus > .toolbarButton {
-		background-color: hsla(0,0%,0%,.12);
-		background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-		//Instead of the line below you could use @include background-clip($clip)
-		background-clip: padding-box;
-		border: 1px solid hsla(0,0%,0%,.35);
-		border-color: hsla(0,0%,0%,.32) hsla(0,0%,0%,.38) hsla(0,0%,0%,.42);
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 1px 0 hsla(0,0%,100%,.05);
-		//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-		transition-property: background-color, border-color, box-shadow;
-		//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-		transition-duration: 150ms;
-		//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-		transition-timing-function: ease;
-	}
-	> .toolbarButton {
-		position: relative;
-		&:hover {
-			background-color: hsla(0,0%,0%,.2);
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 0 1px hsla(0,0%,0%,.05);
-			z-index: 199;
-		}
-		&:focus {
-			background-color: hsla(0,0%,0%,.2);
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 0 1px hsla(0,0%,0%,.05);
-			z-index: 199;
-		}
-	}
-}
-.dropdownToolbarButton {
-	min-width: 16px;
-	padding: 2px 6px 0;
-	border: 1px solid transparent;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 2px;
-	color: hsla(0,0%,100%,.8);
-	font-size: 12px;
-	line-height: 14px;
-	cursor: default;
-	//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-	transition-property: background-color, border-color, box-shadow;
-	//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-	transition-duration: 150ms;
-	//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-	transition-timing-function: ease;
-	background-color: hsla(0,0%,0%,.12);
-	background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-	//Instead of the line below you could use @include background-clip($clip)
-	background-clip: padding-box;
-	border: 1px solid hsla(0,0%,0%,.35);
-	border-color: hsla(0,0%,0%,.32) hsla(0,0%,0%,.38) hsla(0,0%,0%,.42);
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 1px 0 hsla(0,0%,100%,.05);
-	width: 120px;
-	max-width: 120px;
-	padding: 0;
-	overflow: hidden;
-	background: $url_4 no-repeat;
-	&:hover {
-		background-color: hsla(0,0%,0%,.2);
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.15) inset, 0 0 1px hsla(0,0%,0%,.05);
-		z-index: 199;
-		&:active {
-			background-color: hsla(0,0%,0%,.2);
-			background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-			border-color: hsla(0,0%,0%,.35) hsla(0,0%,0%,.4) hsla(0,0%,0%,.45);
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 1px hsla(0,0%,0%,.1) inset, 0 0 1px hsla(0,0%,0%,.2) inset, 0 1px 0 hsla(0,0%,100%,.05);
-			//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-			transition-property: background-color, border-color, box-shadow;
-			//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-			transition-duration: 10ms;
-			//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-			transition-timing-function: linear;
-		}
-	}
-	> select {
-		min-width: 140px;
-		font-size: 12px;
-		color: hsl(0,0%,95%);
-		margin: 0;
-		padding: 3px 2px 2px;
-		border: none;
-		background: rgba(0,0,0,0);
-		> option {
-			background: hsl(0,0%,24%);
-		}
-	}
-}
-.splitToolbarButtonSeparator {
-	padding: 8px 0;
-	width: 1px;
-	background-color: hsla(0,0%,0%,.5);
-	z-index: 99;
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: 0 0 0 1px hsla(0,0%,100%,.08);
-	display: inline-block;
-	margin: 5px 0;
-}
-#customScaleOption {
-	display: none;
-}
-#pageWidthOption {
-	border-bottom: 1px rgba(255, 255, 255, .5) solid;
-}
-.toolbarButtonSpacer {
-	width: 30px;
-	display: inline-block;
-	height: 1px;
-}
-.toolbarButton::before {
-	position: absolute;
-	display: inline-block;
-	top: 4px;
-	left: 7px;
-}
-.secondaryToolbarButton::before {
-	position: absolute;
-	display: inline-block;
-	top: 4px;
-	left: 7px;
-}
-html[dir="ltr"] {
-	.secondaryToolbarButton::before {
-		left: 4px;
-	}
-	.secondaryToolbarButton {
-		padding-left: 24px;
-		text-align: left;
-		&.bookmark {
-			padding-left: 27px;
-		}
-		> span {
-			padding-right: 4px;
-		}
-	}
-	#viewOutline.toolbarButton::before {
-		content: $url_25;
-	}
-}
-html[dir="rtl"] {
-	.secondaryToolbarButton::before {
-		right: 4px;
-	}
-	.secondaryToolbarButton {
-		padding-right: 24px;
-		text-align: right;
-		&.bookmark {
-			padding-right: 27px;
-		}
-		> span {
-			padding-left: 4px;
-		}
-	}
-	#viewOutline.toolbarButton::before {
-		content: $url_26;
-	}
-}
-.bookmark[href=' &#'] {
-	opacity: .5;
-	pointer-events: none;
-}
-.verticalToolbarSeparator {
-	display: block;
-	padding: 8px 0;
-	margin: 8px 4px;
-	width: 1px;
-	background-color: hsla(0,0%,0%,.5);
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: 0 0 0 1px hsla(0,0%,100%,.08);
-}
-.horizontalToolbarSeparator {
-	display: block;
-	margin: 0 0 4px 0;
-	height: 1px;
-	width: 100%;
-	background-color: hsla(0,0%,0%,.5);
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: 0 0 0 1px hsla(0,0%,100%,.08);
-}
-.toolbarField {
-	padding: 3px 6px;
-	margin: 4px 0;
-	border: 1px solid transparent;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 2px;
-	background-color: hsla(0,0%,100%,.09);
-	background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-	//Instead of the line below you could use @include background-clip($clip)
-	background-clip: padding-box;
-	border: 1px solid hsla(0,0%,0%,.35);
-	border-color: hsla(0,0%,0%,.32) hsla(0,0%,0%,.38) hsla(0,0%,0%,.42);
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: 0 1px 0 hsla(0,0%,0%,.05) inset, 0 1px 0 hsla(0,0%,100%,.05);
-	color: hsl(0,0%,95%);
-	font-size: 12px;
-	line-height: 14px;
-	outline-style: none;
-	//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-	transition-property: background-color, border-color, box-shadow;
-	//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-	transition-duration: 150ms;
-	//Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
-	transition-timing-function: ease;
-	&.pageNumber {
-		min-width: 16px;
-		text-align: right;
-		width: 40px;
-		&.visiblePageIsLoading {
-			background-image: $url_3;
-			background-repeat: no-repeat;
-			background-position: 1px;
-		}
-	}
-	&.pageNumber::-webkit-inner-spin-button {
-		margin: 0;
-	}
-	&.pageNumber::-webkit-outer-spin-button {
-		margin: 0;
-	}
-	&:hover {
-		background-color: hsla(0,0%,100%,.11);
-		border-color: hsla(0,0%,0%,.4) hsla(0,0%,0%,.43) hsla(0,0%,0%,.45);
-	}
-	&:focus {
-		background-color: hsla(0,0%,100%,.15);
-		border-color: hsla(204,100%,65%,.8) hsla(204,100%,65%,.85) hsla(204,100%,65%,.9);
-	}
-}
-.toolbarField[type=checkbox] {
-	display: inline-block;
-	margin: 8px 0;
-}
-.toolbarLabel {
-	min-width: 16px;
-	padding: 3px 6px 3px 2px;
-	margin: 4px 2px 4px 0;
-	border: 1px solid transparent;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 2px;
-	color: hsl(0,0%,85%);
-	font-size: 12px;
-	line-height: 14px;
-	text-align: left;
-	cursor: default;
-}
-#thumbnailView {
-	position: absolute;
-	width: 120px;
-	top: 0;
-	bottom: 0;
-	padding: 10px 40px 0;
-	overflow: auto;
-	> a:last-of-type > .thumbnail {
-		margin-bottom: 10px;
-		&:not([data-loaded]) {
-			margin-bottom: 9px;
-		}
-	}
-}
-.thumbnail {
-	float: left;
-	margin-bottom: 5px;
-	&:not([data-loaded]) {
-		border: 1px dashed rgba(255, 255, 255, 0.5);
-		margin: -1px -1px 4px -1px;
-	}
-	&:hover > .thumbnailSelectionRing {
-		background-color: hsla(0,0%,100%,.15);
-		background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-		//Instead of the line below you could use @include background-clip($clip)
-		background-clip: padding-box;
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.2) inset, 0 0 1px hsla(0,0%,0%,.2);
-		color: hsla(0,0%,100%,.9);
-		> .thumbnailImage {
-			opacity: .9;
-		}
-	}
-	&.selected > .thumbnailSelectionRing {
-		background-color: hsla(0,0%,100%,.3);
-		background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-		//Instead of the line below you could use @include background-clip($clip)
-		background-clip: padding-box;
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.1) inset, 0 0 1px hsla(0,0%,0%,.2);
-		color: hsla(0,0%,100%,1);
-		> .thumbnailImage {
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 0 0 1px hsla(0,0%,0%,.5);
-			opacity: 1;
-		}
-	}
-}
-.thumbnailImage {
-	border: 1px solid transparent;
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5), 0 2px 8px rgba(0, 0, 0, 0.3);
-	opacity: 0.8;
-	z-index: 99;
-	background-color: white;
-	//Instead of the line below you could use @include background-clip($clip)
-	background-clip: content-box;
-}
-.thumbnailSelectionRing {
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 2px;
-	padding: 7px;
-}
-#outlineView {
-	position: absolute;
-	width: 192px;
-	top: 0;
-	bottom: 0;
-	overflow: auto;
-	padding: 4px 4px 0;
-}
-#attachmentsView {
-	position: absolute;
-	width: 192px;
-	top: 0;
-	bottom: 0;
-	overflow: auto;
-	padding: 3px 4px 0;
-}
-.outlineItem {
-	> a {
-		text-decoration: none;
-		display: inline-block;
-		min-width: 95%;
-		min-width: calc(100% - 4px);
-		height: auto;
-		margin-bottom: 1px;
-		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-		border-radius: 2px;
-		color: hsla(0,0%,100%,.8);
-		font-size: 13px;
-		line-height: 15px;
-		white-space: normal;
-		&:hover {
-			background-color: hsla(0,0%,100%,.02);
-			background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-			//Instead of the line below you could use @include background-clip($clip)
-			background-clip: padding-box;
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.2) inset, 0 0 1px hsla(0,0%,0%,.2);
-			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-			border-radius: 2px;
-			color: hsla(0,0%,100%,.9);
-		}
-	}
-	&.selected {
-		background-color: hsla(0,0%,100%,.08);
-		background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-		//Instead of the line below you could use @include background-clip($clip)
-		background-clip: padding-box;
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.1) inset, 0 0 1px hsla(0,0%,0%,.2);
-		color: hsla(0,0%,100%,1);
-	}
-}
-.outlineItemToggler {
-	position: relative;
-	height: 0;
-	width: 0;
-	color: hsla(0,0%,100%,.5);
-	&:hover {
-		background-color: hsla(0,0%,100%,.02);
-		background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-		//Instead of the line below you could use @include background-clip($clip)
-		background-clip: padding-box;
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.2) inset, 0 0 1px hsla(0,0%,0%,.2);
-		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-		border-radius: 2px;
-		color: hsla(0,0%,100%,.9);
-		+ a {
-			background-color: hsla(0,0%,100%,.02);
-			background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-			//Instead of the line below you could use @include background-clip($clip)
-			background-clip: padding-box;
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.2) inset, 0 0 1px hsla(0,0%,0%,.2);
-			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-			border-radius: 2px;
-			color: hsla(0,0%,100%,.9);
-		}
-		~ .outlineItems {
-			background-color: hsla(0,0%,100%,.02);
-			background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-			//Instead of the line below you could use @include background-clip($clip)
-			background-clip: padding-box;
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.2) inset, 0 0 1px hsla(0,0%,0%,.2);
-			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-			border-radius: 2px;
-			color: hsla(0,0%,100%,.9);
-		}
-	}
-	&.outlineItemsHidden ~ .outlineItems {
-		display: none;
-	}
-}
-.outlineItemToggler::before {
-	content: $url_35;
-	display: inline-block;
-	position: absolute;
-}
-.noResults {
-	font-size: 12px;
-	color: hsla(0,0%,100%,.8);
-	font-style: italic;
-	cursor: default;
-}
-::selection {
-	background: rgba(0,0,255,0.3);
-}
-::-moz-selection {
-	background: rgba(0,0,255,0.3);
-}
-#errorWrapper {
-	background: none repeat scroll 0 0 #ff5555;
-	color: white;
-	left: 0;
-	position: absolute;
-	right: 0;
-	z-index: 1000;
-	padding: 3px;
-	font-size: 0.8em;
-}
-#errorMessageLeft {
-	float: left;
-}
-#errorMessageRight {
-	float: right;
-}
-#errorMoreInfo {
-	background-color: #ffffff;
-	color: black;
-	padding: 3px;
-	margin: 3px;
-	width: 98%;
-}
-#overlayContainer {
-	display: table;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: hsla(0,0%,0%,.2);
-	z-index: 40000;
-	> * {
-		overflow: auto;
-	}
-	> .container {
-		display: table-cell;
-		vertical-align: middle;
-		text-align: center;
-		> .dialog {
-			display: inline-block;
-			padding: 15px;
-			border-spacing: 4px;
-			color: hsl(0,0%,85%);
-			font-size: 12px;
-			line-height: 14px;
-			background-color: #474747;
-			background-image: $url_2, linear-gradient(hsla(0,0%,32%,.99), hsla(0,0%,27%,.95));
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: inset 1px 0 0 hsla(0,0%,100%,.08), inset 0 1px 1px hsla(0,0%,0%,.15), inset 0 -1px 0 hsla(0,0%,100%,.05), 0 1px 0 hsla(0,0%,0%,.15), 0 1px 1px hsla(0,0%,0%,.1);
-			border: 1px solid hsla(0,0%,0%,.5);
-			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-			border-radius: 4px;
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-		}
-	}
-}
-.dialog {
-	.toolbarField {
-		margin: 5px 0;
-	}
-	.separator {
-		display: block;
-		margin: 4px 0;
-		height: 1px;
-		width: 100%;
-		background-color: hsla(0,0%,0%,.5);
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 0 0 1px hsla(0,0%,100%,.08);
-	}
-	.buttonRow {
-		text-align: center;
-		vertical-align: middle;
-	}
-	:link {
-		color: white;
-	}
-	> .row {
-		display: table-row;
-		> * {
-			display: table-cell;
-		}
-	}
-}
-#passwordOverlay {
-	.toolbarField {
-		width: 200px;
-	}
-	> .dialog {
-		text-align: center;
-	}
-}
-#documentPropertiesOverlay {
-	.row {
-		> * {
-			min-width: 100px;
-		}
-		> span {
-			width: 125px;
-			word-wrap: break-word;
-		}
-		> p {
-			max-width: 225px;
-			word-wrap: break-word;
-		}
-	}
-	.buttonRow {
-		margin-top: 10px;
-	}
-	> .dialog {
-		text-align: left;
-	}
-}
-.clearBoth {
-	clear: both;
-}
-.fileInput {
-	background: white;
-	color: black;
-	margin-top: 5px;
-	visibility: hidden;
-	position: fixed;
-	right: 0;
-	top: 0;
-}
-#PDFBug {
-	background: none repeat scroll 0 0  white;
-	border: 1px solid #666666;
-	position: fixed;
-	top: 32px;
-	right: 0;
-	bottom: 0;
-	font-size: 10px;
-	padding: 0;
-	width: 300px;
-	.controls {
-		background: #eeeeee;
-		border-bottom: 1px solid #666666;
-		padding: 3px;
-	}
-	.panels {
-		bottom: 0;
-		left: 0;
-		overflow: auto;
-		position: absolute;
-		right: 0;
-		top: 27px;
-	}
-	.stats {
-		font-family: $font_1;
-		font-size: 10px;
-		white-space: pre;
-		.title {
-			font-weight: bold;
-		}
-	}
-	table {
-		font-size: 10px;
-	}
-	button.active {
-		font-weight: bold;
-	}
-}
-.debuggerShowText {
-	background: none repeat scroll 0 0  yellow;
-	color: blue;
-}
-#viewer {
-	&.textLayer-visible {
-		.textLayer {
-			opacity: 1.0;
-			> div {
-				background-color: rgba(255, 255, 0, 0.1);
-				color: black;
-				border: solid 1px rgba(255, 0, 0, 0.5);
-				//Instead of the line below you could use @include box-sizing($bs)
-				box-sizing: border-box;
-			}
-		}
-		.canvasWrapper {
-			background-color: rgb(128,255,128);
-			canvas {
-				mix-blend-mode: screen;
-			}
-		}
-	}
-	&.textLayer-hover .textLayer > div:hover {
-		background-color: white;
-		color: black;
-	}
-	&.textLayer-shadow .textLayer > div {
-		background-color: rgba(255,255,255, .6);
-		color: black;
-	}
-}
-.grab-to-pan-grab {
-	cursor: $url_38, move !important;
-	cursor: grab !important;
-	&:active {
-		cursor: $url_39, move !important;
-		cursor: grabbing !important;
-		position: fixed;
-		background: transparent;
-		display: block;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		overflow: hidden;
-		z-index: 50000;
-	}
-	*:not(input):not(textarea):not(button):not(select):not(:link) {
-		cursor: inherit !important;
-	}
-}
-.grab-to-pan-grabbing {
-	cursor: $url_39, move !important;
-	cursor: grabbing !important;
-	position: fixed;
-	background: transparent;
-	display: block;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	overflow: hidden;
-	z-index: 50000;
-}
+
+  .annotationLayer .linkAnnotation > a /* -ms-a */  {
+    background: $data_uri_0 0 0 repeat;
+  }
+
+  .annotationLayer .linkAnnotation > a:hover {
+    opacity: 0.2;
+    background: #ff0;
+    box-shadow: 0px 2px 10px #ff0;
+  }
+
+
+  .annotationLayer .textWidgetAnnotation input,
+  .annotationLayer .textWidgetAnnotation textarea,
+  .annotationLayer .choiceWidgetAnnotation select,
+  .annotationLayer .buttonWidgetAnnotation.checkBox input,
+  .annotationLayer .buttonWidgetAnnotation.radioButton input {
+    background-color: rgba(0, 54, 255, 0.13);
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    font-size: 9px;
+    height: 100%;
+    padding: 0 3px;
+    vertical-align: top;
+    width: 100%;
+  }
+
+
+
+  .pdfViewer .canvasWrapper {
+    overflow: hidden;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  .pdfViewer .page {
+    border-image: $url_0 9 9 repeat;
+    /* Mozilla-specific values */
+    -moz-user-select: none;
+    /* WebKit-specific values */
+    -webkit-user-select: none;
+    /* Microsoft-specific values */
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .pdfViewer.removePageBorders .page {
+    margin: 0px auto 10px auto;
+    border: none;
+    /* Mozilla-specific values */
+    -moz-user-select: none;
+    /* WebKit-specific values */
+    -webkit-user-select: none;
+    /* Microsoft-specific values */
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .pdfViewer .page .loadingIcon {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: $url_2 center no-repeat;
+  }
+
+  body {
+    height: 100%;
+    width: 100%;
+    background-color: #404040;
+    background-image: $url_2;
+  }
+
+  #outerContainer {
+    width: 100%;
+    height: calc(100vh - 5rem); /*5rem viene de .o-header : height*/
+    position: relative;
+  }
+
+  #findInput[data-status="pending"] {
+    background-image: url("/assets/multimedia/images/viewer/loading-small.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .dropdownToolbarButton {
+    width: 120px;
+    max-width: 120px;
+    padding: 0;
+    overflow: hidden;
+    background: url("/assets/multimedia/images/viewer/toolbarButton-menuArrows.png") no-repeat;
+  }
+
+  html[dir='ltr'] .toolbarButton#sidebarToggle::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-sidebarToggle.png");
+  }
+  html[dir='rtl'] .toolbarButton#sidebarToggle::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-sidebarToggle-rtl.png");
+  }
+
+  html[dir='ltr'] .toolbarButton#secondaryToolbarToggle::before {
+    content: $url_7;
+  }
+  html[dir='rtl'] .toolbarButton#secondaryToolbarToggle::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-secondaryToolbarToggle-rtl.png");
+  }
+
+  html[dir='ltr'] .toolbarButton.findPrevious::before {
+    content: url("/assets/multimedia/images/viewer/findbarButton-previous.png");
+  }
+  html[dir='rtl'] .toolbarButton.findPrevious::before {
+    content: url("/assets/multimedia/images/viewer/findbarButton-previous-rtl.png");
+  }
+
+  html[dir='ltr'] .toolbarButton.findNext::before {
+    content: url("/assets/multimedia/images/viewer/findbarButton-next.png");
+  }
+  html[dir='rtl'] .toolbarButton.findNext::before {
+    content: url("/assets/multimedia/images/viewer/findbarButton-next-rtl.png");
+  }
+
+  html[dir='ltr'] .toolbarButton.pageUp::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-pageUp.png");
+  }
+  html[dir='rtl'] .toolbarButton.pageUp::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-pageUp-rtl.png");
+  }
+
+  html[dir='ltr'] .toolbarButton.pageDown::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-pageDown.png");
+  }
+  html[dir='rtl'] .toolbarButton.pageDown::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-pageDown-rtl.png");
+  }
+
+  .toolbarButton.zoomOut::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-zoomOut.png");
+  }
+
+  .toolbarButton.zoomIn::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-zoomIn.png");
+  }
+
+  .toolbarButton.presentationMode::before,
+  .secondaryToolbarButton.presentationMode::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-presentationMode.png");
+  }
+
+  .toolbarButton.print::before,
+  .secondaryToolbarButton.print::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-print.png");
+  }
+
+  .toolbarButton.openFile::before,
+  .secondaryToolbarButton.openFile::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-openFile.png");
+  }
+
+  .toolbarButton.download::before,
+  .secondaryToolbarButton.download::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-download.png");
+  }
+
+  .toolbarButton.bookmark::before,
+  .secondaryToolbarButton.bookmark::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-bookmark.png");
+  }
+
+  #viewThumbnail.toolbarButton::before {
+    content: $url_24;
+  }
+
+  html[dir="ltr"] #viewOutline.toolbarButton::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-viewOutline.png");
+  }
+  html[dir="rtl"] #viewOutline.toolbarButton::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-viewOutline-rtl.png");
+  }
+
+  #viewAttachments.toolbarButton::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-viewAttachments.png");
+  }
+
+  #viewFind.toolbarButton::before {
+    content: url("/assets/multimedia/images/viewer/toolbarButton-search.png");
+  }
+
+  .secondaryToolbarButton.firstPage::before {
+    content: url("/assets/multimedia/images/viewer/secondaryToolbarButton-firstPage.png");
+  }
+
+  .secondaryToolbarButton.lastPage::before {
+    content: url("/assets/multimedia/images/viewer/secondaryToolbarButton-lastPage.png");
+  }
+
+  .secondaryToolbarButton.rotateCcw::before {
+    content: url("/assets/multimedia/images/viewer/secondaryToolbarButton-rotateCcw.png");
+  }
+
+  .secondaryToolbarButton.rotateCw::before {
+    content: url("/assets/multimedia/images/viewer/secondaryToolbarButton-rotateCw.png");
+  }
+
+  .secondaryToolbarButton.handTool::before {
+    content: url("/assets/multimedia/images/viewer/secondaryToolbarButton-handTool.png");
+  }
+
+  .secondaryToolbarButton.documentProperties::before {
+    content: url("/assets/multimedia/images/viewer/secondaryToolbarButton-documentProperties.png");
+  }
+
+  .toolbarField.pageNumber.visiblePageIsLoading {
+    background-image: url("/assets/multimedia/images/viewer/loading-small.png");
+    background-repeat: no-repeat;
+    background-position: 1px;
+  }
+  .outlineItemToggler::before {
+    content: url("/assets/multimedia/images/viewer/treeitem-expanded.png");
+    display: inline-block;
+    position: absolute;
+  }
+  html[dir='ltr'] .outlineItemToggler.outlineItemsHidden::before {
+    content: url("/assets/multimedia/images/viewer/treeitem-collapsed.png");
+  }
+  html[dir='rtl'] .outlineItemToggler.outlineItemsHidden::before {
+    content: url("/assets/multimedia/images/viewer/treeitem-collapsed-rtl.png");
+  }
+  #overlayContainer > .container > .dialog {
+    background-image: $url_2,
+                      linear-gradient(hsla(0,0%,32%,.99), hsla(0,0%,27%,.95));
+    box-shadow: inset 1px 0 0 hsla(0,0%,100%,.08),
+                inset 0 1px 1px hsla(0,0%,0%,.15),
+                inset 0 -1px 0 hsla(0,0%,100%,.05),
+                0 1px 0 hsla(0,0%,0%,.15),
+                0 1px 1px hsla(0,0%,0%,.1);
+    border: 1px solid hsla(0,0%,0%,.5);
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .grab-to-pan-grab {
+    cursor: url("/assets/multimedia/images/viewer/grab.cur"), move !important;
+    cursor: -webkit-grab !important;
+    cursor: -moz-grab !important;
+    cursor: grab !important;
+  }
+
+  .grab-to-pan-grab:active,
+  .grab-to-pan-grabbing {
+    cursor: url("/assets/multimedia/images/viewer/grabbing.cur"), move !important;
+    cursor: -webkit-grabbing !important;
+    cursor: -moz-grabbing !important;
+    cursor: grabbing !important;
+
+    position: fixed;
+    background: transparent;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 50000; /* should be higher than anything else in PDF.js! */
+}
+
 @page {
-	margin: 0;
+    margin: 0;
 }
+
 #printContainer {
-	display: none;
+  display: none;
 }
-@media screen and(min-resolution: 2dppx) {
-	.toolbarButton::before {
-		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-		transform: scale(0.5);
-		top: -5px;
-	}
-	.secondaryToolbarButton::before {
-		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-		transform: scale(0.5);
-		top: -4px;
-	}
-	html[dir='ltr'] {
-		.toolbarButton::before {
-			left: -1px;
-		}
-		.secondaryToolbarButton::before {
-			left: -2px;
-		}
-		.toolbarButton {
-			&#sidebarToggle::before {
-				content: $url_42;
-			}
-			&#secondaryToolbarToggle::before {
-				content: $url_44;
-			}
-			&.findPrevious::before {
-				content: $url_46;
-			}
-			&.findNext::before {
-				content: $url_48;
-			}
-			&.pageUp::before {
-				content: $url_50;
-			}
-			&.pageDown::before {
-				content: $url_52;
-			}
-		}
-		.outlineItemToggler::before {
-			right: 0;
-		}
-		.outlineItemToggler.outlineItemsHidden::before {
-			content: $url_73;
-		}
-	}
-	html[dir='rtl'] {
-		.toolbarButton::before {
-			left: -1px;
-		}
-		.secondaryToolbarButton::before {
-			left: 186px;
-		}
-		.toolbarButton {
-			&#sidebarToggle::before {
-				content: $url_43;
-			}
-			&#secondaryToolbarToggle::before {
-				content: $url_45;
-			}
-			&.findPrevious::before {
-				content: $url_47;
-			}
-			&.findNext::before {
-				content: $url_49;
-			}
-			&.pageUp::before {
-				content: $url_51;
-			}
-			&.pageDown::before {
-				content: $url_53;
-			}
-		}
-		.outlineItemToggler::before {
-			left: 0;
-		}
-		.outlineItemToggler.outlineItemsHidden::before {
-			content: $url_74;
-		}
-	}
-	#findInput[data-status="pending"] {
-		background-image: $url_40;
-		background-size: 16px 17px;
-	}
-	.dropdownToolbarButton {
-		background: $url_41 no-repeat;
-		background-size: 7px 16px;
-	}
-	.toolbarButton {
-		&.zoomIn::before {
-			content: $url_54;
-		}
-		&.zoomOut::before {
-			content: $url_55;
-		}
-		&.presentationMode::before {
-			content: $url_56;
-		}
-		&.print::before {
-			content: $url_57;
-		}
-		&.openFile::before {
-			content: $url_58;
-		}
-		&.download::before {
-			content: $url_59;
-		}
-		&.bookmark::before {
-			content: $url_60;
-		}
-	}
-	.secondaryToolbarButton {
-		&.presentationMode::before {
-			content: $url_56;
-		}
-		&.print::before {
-			content: $url_57;
-		}
-		&.openFile::before {
-			content: $url_58;
-		}
-		&.download::before {
-			content: $url_59;
-		}
-		&.bookmark::before {
-			content: $url_60;
-		}
-		&.firstPage::before {
-			content: $url_66;
-		}
-		&.lastPage::before {
-			content: $url_67;
-		}
-		&.rotateCcw::before {
-			content: $url_68;
-		}
-		&.rotateCw::before {
-			content: $url_69;
-		}
-		&.handTool::before {
-			content: $url_70;
-		}
-		&.documentProperties::before {
-			content: $url_71;
-		}
-	}
-	.outlineItemToggler::before {
-		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-		transform: scale(0.5);
-		top: -1px;
-		content: $url_72;
-	}
-	.toolbarField.pageNumber.visiblePageIsLoading {
-		background-image: $url_40;
-		background-size: 16px 17px;
-	}
-	#viewThumbnail.toolbarButton::before {
-		content: $url_61;
-	}
-	html[dir="ltr"] #viewOutline.toolbarButton::before {
-		content: $url_62;
-	}
-	html[dir="rtl"] #viewOutline.toolbarButton::before {
-		content: $url_63;
-	}
-	#viewAttachments.toolbarButton::before {
-		content: $url_64;
-	}
-	#viewFind.toolbarButton::before {
-		content: $url_65;
-	}
+
+@media screen and (min-resolution: 2dppx) {
+    .toolbarField.pageNumber.visiblePageIsLoading,
+    #findInput[data-status="pending"] {
+        background-image: url("/assets/multimedia/images/viewer/loading-small@2x.png");
+        background-size: 16px 17px;
+    }
+
+    .dropdownToolbarButton {
+        background: url("/assets/multimedia/images/viewer/toolbarButton-menuArrows@2x.png") no-repeat;
+        background-size: 7px 16px;
+    }
+
+    html[dir='ltr'] .toolbarButton#sidebarToggle::before {
+        content: url("/assets/multimedia/images/viewer/toolbarButton-sidebarToggle@2x.png");
+    }
+    html[dir='rtl'] .toolbarButton#sidebarToggle::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-sidebarToggle-rtl@2x.png");
+    }
+
+    html[dir='ltr'] .toolbarButton#secondaryToolbarToggle::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-secondaryToolbarToggle@2x.png");
+    }
+    html[dir='rtl'] .toolbarButton#secondaryToolbarToggle::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-secondaryToolbarToggle-rtl@2x.png");
+    }
+
+    html[dir='ltr'] .toolbarButton.findPrevious::before {
+      content: url("/assets/multimedia/images/viewer/findbarButton-previous@2x.png");
+    }
+    html[dir='rtl'] .toolbarButton.findPrevious::before {
+      content: url("/assets/multimedia/images/viewer/findbarButton-previous-rtl@2x.png");
+    }
+
+    html[dir='ltr'] .toolbarButton.findNext::before {
+      content: url("/assets/multimedia/images/viewer/findbarButton-next@2x.png");
+    }
+    html[dir='rtl'] .toolbarButton.findNext::before {
+      content: url("/assets/multimedia/images/viewer/findbarButton-next-rtl@2x.png");
+    }
+
+    html[dir='ltr'] .toolbarButton.pageUp::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-pageUp@2x.png");
+    }
+    html[dir='rtl'] .toolbarButton.pageUp::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-pageUp-rtl@2x.png");
+    }
+
+    html[dir='ltr'] .toolbarButton.pageDown::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-pageDown@2x.png");
+    }
+    html[dir='rtl'] .toolbarButton.pageDown::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-pageDown-rtl@2x.png");
+    }
+
+    .toolbarButton.zoomIn::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-zoomIn@2x.png");
+    }
+
+    .toolbarButton.zoomOut::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-zoomOut@2x.png");
+    }
+
+    .toolbarButton.presentationMode::before,
+    .secondaryToolbarButton.presentationMode::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-presentationMode@2x.png");
+    }
+
+    .toolbarButton.print::before,
+    .secondaryToolbarButton.print::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-print@2x.png");
+    }
+
+    .toolbarButton.openFile::before,
+    .secondaryToolbarButton.openFile::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-openFile@2x.png");
+    }
+
+    .toolbarButton.download::before,
+    .secondaryToolbarButton.download::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-download@2x.png");
+    }
+
+    .toolbarButton.bookmark::before,
+    .secondaryToolbarButton.bookmark::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-bookmark@2x.png");
+    }
+
+    #viewThumbnail.toolbarButton::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-viewThumbnail@2x.png");
+    }
+
+    html[dir="ltr"] #viewOutline.toolbarButton::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-viewOutline@2x.png");
+    }
+    html[dir="rtl"] #viewOutline.toolbarButton::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-viewOutline-rtl@2x.png");
+    }
+
+    #viewAttachments.toolbarButton::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-viewAttachments@2x.png");
+    }
+
+    #viewFind.toolbarButton::before {
+      content: url("/assets/multimedia/images/viewer/toolbarButton-search@2x.png");
+    }
+
+    .secondaryToolbarButton.firstPage::before {
+      content: url("/assets/multimedia/images/viewer/secondaryToolbarButton-firstPage@2x.png");
+    }
+
+    .secondaryToolbarButton.lastPage::before {
+      content: url("/assets/multimedia/images/viewer/secondaryToolbarButton-lastPage@2x.png");
+    }
+
+    .secondaryToolbarButton.rotateCcw::before {
+      content: url("/assets/multimedia/images/viewer/secondaryToolbarButton-rotateCcw@2x.png");
+    }
+
+    .secondaryToolbarButton.rotateCw::before {
+      content: url("/assets/multimedia/images/viewer/secondaryToolbarButton-rotateCw@2x.png");
+    }
+
+    .secondaryToolbarButton.handTool::before {
+      content: url("/assets/multimedia/images/viewer/secondaryToolbarButton-handTool@2x.png");
+    }
+
+    .secondaryToolbarButton.documentProperties::before {
+      content: url("/assets/multimedia/images/viewer/secondaryToolbarButton-documentProperties@2x.png");
+    }
+
+  .outlineItemToggler::before {
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+      top: -1px;
+      content: $url_72;
+  }
+  html[dir='ltr'] .outlineItemToggler.outlineItemsHidden::before {
+    content: url("/assets/multimedia/images/viewer/treeitem-collapsed@2x.png");
+  }
+  html[dir='rtl'] .outlineItemToggler.outlineItemsHidden::before {
+    content: url("/assets/multimedia/images/viewer/treeitem-collapsed-rtl@2x.png");
+  }
 }
+
 @media print {
-	body {
-		background: transparent none;
-	}
-	#sidebarContainer {
-		display: none;
-	}
-	#secondaryToolbar {
-		display: none;
-	}
-	.toolbar {
-		display: none;
-	}
-	#loadingBox {
-		display: none;
-	}
-	#errorWrapper {
-		display: none;
-	}
-	.textLayer {
-		display: none;
-	}
-	#viewerContainer {
-		overflow: visible;
-		position: static;
-		padding: 0;
-		margin: 0;
-	}
-	#mainContainer {
-		position: static;
-		padding: 0;
-		margin: 0;
-	}
-	.page {
-		position: static;
-		padding: 0;
-		margin: 0;
-		float: left;
-		display: none;
-		border: none;
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: none;
-		//Instead of the line below you could use @include background-clip($clip)
-		background-clip: content-box;
-		background-color: white;
-		canvas {
-			position: static;
-			padding: 0;
-			margin: 0;
-		}
-	}
-	.page[data-loaded] {
-		display: block;
-	}
-	.fileInput {
-		display: none;
-	}
-	body[data-pdfjsprinting] {
-		#outerContainer {
-			display: none;
-		}
-		#printContainer {
-			display: block;
-		}
-	}
-	#printContainer {
-		height: 100%;
-		> div {
-			position: relative;
-			top: 0;
-			left: 0;
-			width: 1px;
-			height: 1px;
-			overflow: visible;
-			page-break-after: always;
-			page-break-inside: avoid;
-		}
-		canvas {
-			display: block;
-		}
-		img {
-			display: block;
-		}
-	}
-}
-.visibleLargeView {
-	display: none;
-}
-.visibleMediumView {
-	display: none;
-}
-.visibleSmallView {
-	display: none;
-}
-@media all and(max-width: 1040px) {
-	#outerContainer {
-		&.sidebarMoving #toolbarViewerMiddle {
-			display: table;
-			margin: auto;
-			left: auto;
-			position: inherit;
-			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-			transform: none;
-		}
-		&.sidebarOpen #toolbarViewerMiddle {
-			display: table;
-			margin: auto;
-			left: auto;
-			position: inherit;
-			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-			transform: none;
-		}
-	}
-}
-@media all and(max-width: 980px) {
-	.sidebarMoving {
-		.hiddenLargeView {
-			display: none;
-		}
-		.visibleLargeView {
-			display: inherit;
-		}
-	}
-	.sidebarOpen {
-		.hiddenLargeView {
-			display: none;
-		}
-		.visibleLargeView {
-			display: inherit;
-		}
-	}
-}
-@media all and(max-width: 900px) {
-	#toolbarViewerMiddle {
-		display: table;
-		margin: auto;
-		left: auto;
-		position: inherit;
-		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-		transform: none;
-	}
-	.sidebarMoving {
-		.hiddenMediumView {
-			display: none;
-		}
-		.visibleMediumView {
-			display: inherit;
-		}
-	}
-	.sidebarOpen {
-		.hiddenMediumView {
-			display: none;
-		}
-		.visibleMediumView {
-			display: inherit;
-		}
-	}
-}
-@media all and(max-width: 840px) {
-	#sidebarContainer {
-		top: 32px;
-		z-index: 100;
-	}
-	#sidebarContent {
-		top: 32px;
-		background-color: hsla(0,0%,0%,.7);
-	}
-	#outerContainer {
-		.hiddenLargeView {
-			display: inherit;
-		}
-		.hiddenMediumView {
-			display: inherit;
-		}
-		.visibleLargeView {
-			display: none;
-		}
-		.visibleMediumView {
-			display: none;
-		}
-	}
-	.loadingInProgress #sidebarContainer {
-		top: 37px;
-	}
-	html[dir='ltr'] #outerContainer.sidebarOpen > #mainContainer {
-		left: 0;
-	}
-	html[dir='rtl'] #outerContainer.sidebarOpen > #mainContainer {
-		right: 0;
-	}
-}
-@media all and(max-width: 770px) {
-	#outerContainer {
-		.hiddenLargeView {
-			display: none;
-		}
-		.visibleLargeView {
-			display: inherit;
-		}
-	}
-}
-@media all and(max-width: 700px) {
-	#outerContainer {
-		.hiddenMediumView {
-			display: none;
-		}
-		.visibleMediumView {
-			display: inherit;
-		}
-	}
-}
-@media all and(max-width: 640px) {
-	.hiddenSmallView {
-		display: none;
-		* {
-			display: none;
-		}
-	}
-	.visibleSmallView {
-		display: inherit;
-	}
-	.toolbarButtonSpacer {
-		width: 0;
-	}
-	html[dir='ltr'] .findbar {
-		left: 38px;
-	}
-	html[dir='rtl'] .findbar {
-		right: 38px;
-	}
-}
-@media all and(max-width: 535px) {
-	#scaleSelectContainer {
-		display: none;
-	}
-}
-#viewThumbnail.toolbarButton::before {
-	content: $url_24;
-}
-#viewAttachments.toolbarButton::before {
-	content: $url_27;
-}
-#viewFind.toolbarButton::before {
-	content: $url_28;
-}
-a:focus > .thumbnail > .thumbnailSelectionRing {
-	background-color: hsla(0,0%,100%,.15);
-	background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-	//Instead of the line below you could use @include background-clip($clip)
-	background-clip: padding-box;
-	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.2) inset, 0 0 1px hsla(0,0%,0%,.2);
-	color: hsla(0,0%,100%,.9);
-	> .thumbnailImage {
-		opacity: .9;
-	}
-}
-.attachmentsItem > button {
-	text-decoration: none;
-	display: inline-block;
-	min-width: 95%;
-	min-width: calc(100% - 4px);
-	height: auto;
-	margin-bottom: 1px;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 2px;
-	color: hsla(0,0%,100%,.8);
-	font-size: 13px;
-	line-height: 15px;
-	white-space: normal;
-	border: 0 none;
-	background: none;
-	cursor: pointer;
-	width: 100%;
-	&:hover {
-		background-color: hsla(0,0%,100%,.02);
-		background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
-		//Instead of the line below you could use @include background-clip($clip)
-		background-clip: padding-box;
-		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		box-shadow: 0 1px 0 hsla(0,0%,100%,.05) inset, 0 0 1px hsla(0,0%,100%,.2) inset, 0 0 1px hsla(0,0%,0%,.2);
-		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-		border-radius: 2px;
-		color: hsla(0,0%,100%,.9);
-	}
-}
-.loadingInProgress #errorWrapper {
-	top: 37px;
-}
-.debuggerHideText:hover {
-	background: none repeat scroll 0 0  yellow;
+  /* General rules for printing. */
+  body {
+    background: transparent none;
+  }
 }

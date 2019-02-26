@@ -1,30 +1,42 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { PdfService } from "../../services/pdf.service";
-import { ActivatedRoute, Params } from "@angular/router";
-
+import { ActivatedRoute } from "@angular/router";
 @Component({
     selector: 'app-viewer',
     templateUrl: './viewer.component.html',
     styleUrls: ['./viewer.component.scss']
     })
-    export class ViewerComponent implements OnInit {
+export class ViewerComponent implements OnInit, OnDestroy {
 
     params:any;
+    currentPdf: string;
 
     constructor(private PdfService: PdfService, private ruteInput: ActivatedRoute) {
         this.params = this.ruteInput;
-        console.log(this.params.params);
-        console.log(this.params.params._value.name);
-
+        this.currentPdf = sessionStorage.getItem(PdfService.getHashPdf());
     }
 
     ngOnInit() {
         const head = <HTMLDivElement> document.head;
-        const body = <HTMLDivElement> document.body;
-        this.loadScript(head, '//booksandbooksdigital.com.co/pdfviewer//build/pdf.js');
-        this.loadLink(head, '//booksandbooksdigital.com.co/pdfviewer/locale/locale.properties', 'application/l10n', 'resource')
-        this.loadScript(head, '//booksandbooksdigital.com.co/pdfviewer/l10n.js');
+
+        this.loadScript(head, 'assets/multimedia/pdf/build/pdf.js');
+        this.loadLink(head, 'assets/multimedia/pdf/locale/locale.properties', 'application/l10n', 'resource', '')
+        this.loadLink(head, 'assets/multimedia/pdf/viewer.css', '', 'stylesheet', '_viewercss')
+        this.loadScript(head, 'assets/multimedia/pdf/l10n.js');
+        setTimeout(() => {
+            window['namePdf'] = 'assets/multimedia/pdf/'+this.currentPdf+'/'+this.currentPdf+'.pdf';
+            setTimeout(() => this.loadPdf(), 2000);
+        }, 1000);
     }
+    ngOnDestroy(){
+        console.log('me fui');
+        const head = <HTMLDivElement> document.head;
+        const cssViewer = document.getElementById('_viewercss') as HTMLLinkElement;
+        if(cssViewer){
+            head.removeChild(cssViewer)
+        }
+    }
+
     public loadScript(context: Element ,url: string) {
         const script = document.createElement('script');
         script.innerHTML = '';
@@ -39,17 +51,18 @@ import { ActivatedRoute, Params } from "@angular/router";
         // );
     }
 
-    public loadLink(context: Element, url: string, type: string, rel: string) {
+    public loadLink(context: Element, url: string, type: string, rel: string, id?:string, ) {
         const link = document.createElement('link');
         link.innerHTML = '';
         link.href = url;
         link.type = type;
         link.rel = rel;
+        id ? link.id = id : null;
 
         context.appendChild(link);
     }
 
-    getparams(){
+    loadPdf(){
+        this.loadScript(<HTMLDivElement> document.body, 'assets/multimedia/pdf/viewer.js');
     }
-
 }
