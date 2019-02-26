@@ -7,7 +7,7 @@ import { ViewerComponent } from './components/viewer/viewer.component';
 const routes: Routes = [
     {path: '', component: LoginComponent},
     {path: 'home', component: HomeComponent},
-    {path: 'viewer/:name', component: ViewerComponent},
+    {path: 'viewer', component: ViewerComponent},
     {path: '**', component: LoginComponent},
 ];
 
