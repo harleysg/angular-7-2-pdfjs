@@ -73,11 +73,15 @@ export class PdfService {
             name: 'La problemática del financiamiento de la educación superior en la crisis económica de América Latina'
         }
     ];
+    public pdfHash: string = '_hashPdf'; // SessionStorage Key name
 
-    constructor() {
-    }
+    constructor() { }
+
     getPdf(){
         return this.pdfList;
+    }
+    getHashPdf(){
+        return this.pdfHash;
     }
 }
 
