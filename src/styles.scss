@@ -22,18 +22,17 @@ body {
 }
 
 
-.textLayer {
-    pointer-events: none;
-}
+// .textLayer {pointer-events: none;}
 .canvasWrapper{
     user-select: none;
 }
 
 
 .o- {
-    &main{}
+    // &main{}
     &header {
         position: sticky;
+        z-index: 3;
         left: 0;
         top: 0;
         height: 5rem;
@@ -104,7 +103,7 @@ body {
 .c-card_image{
     margin: 0;
     overflow: hidden;
-    pointer-events: none;
+    //pointer-events: none;
 }
 .c-card_image img{
     width: 100%;
