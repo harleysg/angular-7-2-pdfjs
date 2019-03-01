@@ -21,12 +21,10 @@ body {
     font-weight: 300;
 }
 
-
 // .textLayer {pointer-events: none;}
 .canvasWrapper{
     user-select: none;
 }
-
 
 .o- {
     // &main{}
@@ -61,9 +59,7 @@ body {
     }
 }
 
-
 /* .o-footer {} */
-
 
 .c-link {
     text-decoration: none;
@@ -124,16 +120,12 @@ body {
     position: relative;
     text-transform: lowercase;
 }
-
 .c-card_title::first-letter{
     text-transform: uppercase;
 }
-
 .c-card_title::after{
     content: '... [ver más]';
 }
-
-/**/
 
 .on- {
     &home {
@@ -159,20 +151,20 @@ body {
             height: 350px;
             text-align: center;
         }
+        .o-header{
+          display: none;
+        }
     }
 }
-
 
 .on-login .cont-form .form {
     display: inline-block;
     max-width: 340px;
 }
-
 .on-login .cont-form .form .logo {
     height: 36px;
     position: relative;
 }
-
 .on-login .cont-form .logo img {
     position: absolute;
     top: 0;
@@ -192,78 +184,63 @@ body {
     margin: auto;
     max-width: 100%;
 }
-
 .on-login .cont-form .form .logo a.loginButton {
     position: absolute;
     right: -17px;
     padding: 6px 15px;
     width: 100px;
 }
-
 .on-login .cont-form .form .logo a.loginButton.ingreso::after {
     right: -10px;
     border-width: 19px 0 17px 10px;
     border-color: transparent transparent transparent #e53141;
 }
-
 .on-login .cont-form .form .logo a.loginButton.ingreso::before {
     left: -20px;
     border-width: 0 0 36px 20px;
     border-color: transparent transparent #e53141 transparent;
 }
-
 .on-login .cont-form .form.ingreso .loginButton.ingreso {
     background-color: #FFFFFF;
     color: #292B33;
 }
-
 .on-login .cont-form .form form {
     margin-top: 30px;
 }
-
 .on-login .cont-form .form form input {
     background-color: rgba(232, 232, 232, 0.2);
     border-bottom-color: #292B33;
     margin-bottom: 10px;
     color: white;
 }
-
 .on-login .cont-form .form form input:focus {
     border-bottom: 3px solid #00C2BE;
 }
-
 .on-login .cont-form .form form input.sel {
     border-bottom: 3px solid #23cff0;
 }
-
 .on-login .cont-form .form form input.bien {
     border-bottom: 3px solid #19CDBD;
 }
-
 .on-login .cont-form .form form input.mal {
     border-bottom: 3px solid #e53141;
 }
-
 .on-login .cont-form .form form a.loginButton {
     margin-top: 10px;
 }
-
 .on-login .cont-form .form form a.loginButton.ingreso::after {
     right: -10px;
     border-width: 19px 0 17px 10px;
     border-color: transparent transparent transparent #e53141;
 }
-
 .on-login .cont-form .form form a.loginButton.registro::before {
     left: -10px;
     border-width: 19px 10px 17px 0;
     border-color: transparent #46559f transparent transparent;
 }
-
 .on-login .loginButtons {
     text-align: center;
 }
-
 .on-login input[type='text'],
 .on-login input[type='password'] {
     line-height: 1rem;
@@ -282,7 +259,6 @@ body {
     -ms-transition: 350ms;
     transition: 350ms;
 }
-
 .on-login .loginButton {
     display: inline-block;
     text-align: center;
@@ -294,13 +270,11 @@ body {
     outline: none;
     position: relative;
 }
-
 .on-login .loginButton.registro::after {
     right: -10px;
     border-width: 19px 0 17px 10px;
     border-color: transparent transparent transparent #46559f;
 }
-
 .on-login .loginButton.registro::before {
     left: -20px;
     border-width: 0 0 36px 20px;
