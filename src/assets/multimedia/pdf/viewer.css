@@ -308,7 +308,7 @@ html {
   height: 100%;
   width: 100%;
   /* Font size is needed to make the activity bar the correct size. */
-  font-size: 10px;
+  /* font-size: 10px; */
 }
 
 body {
@@ -318,7 +318,7 @@ body {
   /*background-image: url(images/texture.png);*/
 }
 
-body,
+/* body, */
 input,
 button,
 select {
@@ -534,7 +534,7 @@ html[dir='rtl'] #viewerContainer {
   height: 32px;
   background-color: #424242; /* fallback */
   /*background-image: url(images/texture.png), linear-gradient(hsla(0,0%,30%,.99), hsla(0,0%,25%,.95));*/
-  background-color: #005583;
+  background-color: var(--color_1);
   /*background-image: url(images/texture.png), linear-gradient(hsl(201, 100%, 26%), hsl(201, 100%, 26%));*/
 }
 html[dir='ltr'] #toolbarSidebar {
@@ -555,7 +555,7 @@ html[dir='rtl'] #toolbarSidebar {
   height: 32px;
   /* background-color: #474747; /* fallback */
   /* background-image: url(images/texture.png), linear-gradient(hsla(0,0%,32%,.99), hsla(0,0%,27%,.95)); */
-  background-color: #005583;
+  background-color: var(--color_1);
   /*background-image: url(images/texture.png), linear-gradient(hsl(201, 100%, 26%), hsl(201, 100%, 26%));*/
 }
 html[dir='ltr'] #toolbarContainer, .findbar, .secondaryToolbar {

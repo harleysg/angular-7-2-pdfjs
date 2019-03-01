@@ -10,6 +10,7 @@
 
 html {
     font-size: var(--fz);
+    --color_1:#263238;
 }
 
 body {
@@ -28,7 +29,7 @@ body {
 
 .o- {
     // &main{}
-    &header {
+  &header {
         position: sticky;
         z-index: 3;
         left: 0;
@@ -40,17 +41,24 @@ body {
         padding: 0.5rem 1rem;
         box-sizing: border-box;
 
-        background-color: #005682;
+        // background-image: url(./assets/multimedia/images/ui/header-bg.png);
+
+        background-color: #263238;
         box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.1),
                     3px 0px 5px 0px rgba(0, 0, 0, 0.1),
                     0px 6px 10px 1px rgba(0, 0, 0, 0.16);
+  }
+  &logo{
+    &_field{
+      margin: 0;
     }
-    &logo[ui='header']{
-        display: block;
-        height: 100%;
-        max-width: 100%;
-        object-fit: contain;
+    &[ui='header']{
+      display: block;
+      height: 100%;
+      max-width: 90px;
+      object-fit: contain;
     }
+  }
     &wrap {
         width: 100%;
         max-width: 1024px;
@@ -64,9 +72,19 @@ body {
 .c-link {
     text-decoration: none;
     cursor: pointer;
+    &[ui='header']{
+      color: white;
+      padding: 0.4rem 0.7rem;
+    }
 }
-.c-link[ui='header'] {
-    color: #f4b500;
+
+.c-nav {
+    text-decoration: none;
+    cursor: pointer;
+    &[ui='header']{
+      display: flex;
+      align-items: center;
+    }
 }
 
 .c-gallery {
@@ -132,8 +150,8 @@ body {
         background-color: #fff;
     }
     &login {
-        background: #292B33;
-        background-image: url(./assets/multimedia/images/LookandFeel/header-bg.png);
+        background-color: var(--color_1);
+        background-image: url(./assets/multimedia/images/ui/header-bg.png);
         height: 100%;
         min-height: 100vh;
         display: flex;
